@@ -1,0 +1,2068 @@
+[
+  {
+    "_id": {
+      "$oid": "5ea0038004b09a3303f7c60b"
+    },
+    "LearningEvents": "Create",
+    "LearningActivities": [
+      {
+        "Name": "Design",
+        "indicator": [
+          {
+            "indicatorName": "Course assessment(s) [55]",
+            "metrics": "Number of students, Number of Topics, Number of Tags, Student background, Course material(s), Student achievement(s), Student Grade(s), Resources used, MCQs, Question(s), Rating(s), Discussion(s) [55]"
+          },
+          {
+            "indicatorName": "Teacher curriculum usage and Teacher curriculum planning and Teacher curriculum designing [65]",
+            "metrics": "Total logins, Total logouts, Teacher logins, Time span for visit(s), Number of visits, Teacher activities, Student grades improved, Student grades remained the same, Student grades dropped [65]"
+          },
+          {
+            "indicatorName": "Course difficulty [77]",
+            "metrics": "Grade point average (GPA), Distance between the GPA and a particular course grade, Distances between the GPAs of all the student(s), A course average grade is on average worse than the GPA of a student [77]"
+          }
+        ]
+      },
+      {
+        "Name": "Group Work",
+        "indicator": [
+          {
+            "indicatorName": "Final grade prediction [28]",
+            "metrics": "Number of bookmarks in a group, Total bookmarks, Number of New blog posts in the group blog, Number of blog posts, Number of Topics that each user has uploaded on group discussion, Number of topics, Number of Uploads of new files on group files page, Number of comments on bookmarks uploaded by other group member(s), Number of comments on blog posts in the group blog, Number of comments on topics of group discussion, Number of comments on files uploaded by other group member(s), Number of comments on wire posts of other group members [28]"
+          },
+          {
+            "indicatorName": "Group Participation [30]",
+            "metrics": "Number of Content read, Number of words produced, Number of comments, Student active in discussion(s), Student Passive in discussion(s), Activity timing, Content view(s), Web resource(s), Discussion posts [30]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) and Emotional state [36]",
+            "metrics": "Student attendance, Exercise activities, Classroom activities, Group work activities, Satisfaction questionnaire, Positive emotion (Enjoyment / Hope / Pride / Confidence / Excitement /Interest), Negative emotion (Anxiety / Anger / Shame / Hopelessness / Boredom / Frustration), Interviews [36]"          
+          },
+          {
+            "indicatorName": "Resource usage awareness and Self-regulated learning (SRL) [39]",
+            "metrics": "Application timestamp, User posts, Blog comment(s), Course tweet timestamp, Number of posts, Number of tweets, Total comments, Total visits, Group work discussion [39]"
+          },
+          {
+            "indicatorName": "Performance [50]",
+            "metrics": "Create idea (Mind map style), Create connection, Website annotation, Group discussion, Group participation, Degree of the centrality of discussion, Question in the discussion, Answer in the discussion, Challenge in the discussion, Number of Content creation, Number of Connection [50]"
+          },
+          {
+            "indicatorName": "Engagement and Performance [69]",
+            "metrics": "Student weekly participation(s), Student assignment participation(s), Student quizzes participation(s), Total student marks, Average student marks, Cumulative GPA in first three weeks, Student groups comparison, Student watched the video but did not participate, Students participated in the assessment, Grades in 60th percentile in first two weeks, Video views, Assignment submission(s), Watched video(s), Assessment participation [69]"
+          },
+          {
+            "indicatorName": "Student grade(s) prediction [115]",
+            "metrics": "Total number of groups, Total File uploads, Total downloads, Total edits, Total changes, Total comments, Total comments reads, Peer grading, Vote for accomplishment [115]"
+          },
+          {
+            "indicatorName": "Student comparison and Self-motivation and Predict grade [130]",
+            "metrics": "Total Number of clicks, Total Number of views, Number of content views, Number of content clicks, Total lectures, Total practicals, Total coursework clicks, Average time of content accesses, Total time of content accesses, Number of days per week, Average time between content accesses, Average group size of simultaneous content accesses, Number of clicks grouped by parent folder, Number of seen content, Number of unseen content, Number of total lecture views, Module grade(s), Attendance [130]"
+          },
+          {
+            "indicatorName": "Prediction (A pilot study) [144]",
+            "metrics": "Student age, sex, Pell grant eligibility, Grade point average, average MBA course final exam score, average peer review score, Student public message count, Student public Group message count, instant private message count, Chapter view count, Average assignment score, Final exam grade, Final Course grade, Message creator, Message timestamp, Message content, Forum message(s) [144]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) [153]",
+            "metrics": "Number of students, Student click(s), Student view(s), Assignment(s), Test scores, Quizzes, Report(s), Average grade, Cumulative average grade, Cumulative final grade, Student groups (high mid-high mid-low and low performance groups), SRL survey constructs, Student motivation, Student planning, Student monitoring, Student regulation [153]"
+          },
+          {
+            "indicatorName": "Collaborative engagement (multimodal - child interaction with robot) [166]",
+            "metrics": "Video recording(s), Total sessions, Voice frequency, Speech recognition, Kinesics, Eye contact, Gaze orientation (looking at the robot), Body orientation (facing peer or robot), Posture (leaning forward), Gestures, Gesture of ideas (representing a concept), Enactments of ideas (representing a concept), Facial expression(s), Robot generated question(s), Question response(s), Peer discussion (initiated - extended or elaborated), Robot discussion (initiated - extended or elaborated), Initiating a talk related to the current topic, robot Self-talk, robot mumbling, peer Self-talk, peer mumbling [166]"
+          }
+        ]
+      },
+      {
+        "Name": "Collaboration",
+        "indicator": [
+          {
+            "indicatorName": "Classifying student behavior [29]",
+            "metrics": "Number of answers, Number of questions asked, Number of videos watched, Time between videos watched [29]"
+          },
+          {
+            "indicatorName": "Recommend Resource(s) [57]",
+            "metrics": "Name, Age, Address, Gender, Prior knowledge, Overall time, Test result(s), Performance data (Cognitive style / Instruction mode / Delivery mode / Interaction kind / Skills gained / Reasoning ability / Collaborative skill), Learner history (Knowledge level / Prerequisites / Current unit / Current level / Overall time / Test results) [57]"
+          },
+          {
+            "indicatorName": "Writing analytics and Collaboration network [61]",
+            "metrics": "Document revision(s), Collaborative writing(s), Collaborative editing(s), Writing session(s), Writing Day(s), Text writing(s), Text editing(s) location, Text time, Student most edits, Student least edit(s), Number of authors worked on each paragraph,  Number of authors worked on each section, Number of group members [61]"
+          },
+          {
+            "indicatorName": "Discourse analysis [80]",
+            "metrics": "Student age, Student gender, Subject, Student forum discussion(s), Collaboration, Questionnaire response opinion(s), Analyze text opinion, Analyze text elaboration, Analyze text evidence [80]"
+          },
+          {
+            "indicatorName": "Grade prediction (by performance or course difficulty level) [83]",
+            "metrics": "GPA over the previous course(s), Average grade achieved, Student collaboration(s), Forum discussions initiated, Forum discussions view(s), Course material views, Total course contributions, Course contributions [83]"
+          },
+          {
+            "indicatorName": "Teachers comparison [152]",
+            "metrics": "Teacher age, Teacher sex, Teacher experience, Teacher total clicks, Teacher clickstream, Teacher group page click(s), Teacher time spent on the dashboard, Teacher indicator click(s), Teacher visit student group(s) [152]"
+          },
+          {
+            "indicatorName": "Forum network analysis [173]",
+            "metrics": "Course forum, (Discussion) threads, Enrolled student(s), Student post(s), post contribution(s), Number of collaborations, Post ID, Author ID, Target post ID (that the current post was a response to), Thread ID, Post (publication) timestamp [173]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ea0110504b09a3303f7ca70"
+    },
+    "LearningEvents": "Receive",
+    "LearningActivities": [
+      {
+        "Name": "Reading",
+        "indicator": [
+          {
+            "indicatorName": "Reading analytics and Discussion contribution quantity and Discussion contribution quality [24]",
+            "metrics": "Number of comments, Number of likes, Number of replies, Average replies, Network discussion(s), Network connection(s) [24]"
+          },
+          {
+            "indicatorName": "Discussion engagement(s) [49]",
+            "metrics": "Posts reads, Number of posts, Number of comments, Number of days student logged into a discussion, Number of times student logged into a discussion, Average session time, Average post length, Percent of sessions with posts, Number of reviews of own posts,  Number of reviews of other posts [49]"
+          },
+          {
+            "indicatorName": "Learning behavior pattern(s) [111]",
+            "metrics": "Number of correctly solved assessment exercises, Number of incorrectly solved assessment exercises, Number of correctly solved MCQs, Number of incorrectly solved MCQs, Number of solutions requested for an assessment item, Course Video views, Reading material page view(s), Dashboard view(s), Schedule objective page view(s), learning objective page view(s) [111]"
+          },
+          {
+            "indicatorName": "Reading analytics and Ideal reading material [114]",
+            "metrics": "Number of reading sessions, Duration of reading sessions, Reading sessions per user, Transitions between reading materials, Rereading the same material, Reading interruptions [114]"
+          },
+          {
+            "indicatorName": "Learning Strategies [118]",
+            "metrics": "formative assessment done correctly, formative assessment done incorrectly, requesting the solution for a formative assessment item, watching a course video, reading course content [118]"
+          },
+          {
+            "indicatorName": "Performance rating monitor [128]",
+            "metrics": "Marker count, Memo count, Time spent, Reading completion, Sequence, Marker content, Memo content, Engagement score, Engagement rating, Active reading rating, Performance rating, Attendance rating, Student rating, Teacher rating, Assessment score(s) [128]"
+          },
+          {
+            "indicatorName": "Reading analytics [134]",
+            "metrics": "Number of reading mean turns, Number of reading standard deviation turns, Number of reading min turns, Number of reading max turns, Number of questions mean answered, Number of questions Standard deviation answered, Number of questions min answered, Number of questions max answered, percent of answered mean correctly, percent of answered Standard deviation correctly, percent of answered min correctly, percent of answered max correctly, total audio time mean recorded, total audio time Standard deviation recorded, total audio time min recorded, total audio time max recorded, average reading rate, timeline [134]"
+          },
+          {
+            "indicatorName": "At-Risk Student(s) [122]",
+            "metrics": "Gender, Age, GPA, Grade(s), Number of sessions opened, Number of content viewed, Number of discussions read, Number of discussions posted, Number of assignments committed, Number of assessments submitted, Number of course sessions compared to course average, Number of content Resources viewed compared to course average, Full-time enrollment, part-time enrollment [122]"
+          },
+          {
+            "indicatorName": "Student success prediction [94]",
+            "metrics": "Student demographic(s), Student gender, Student age, Previous MOOC enrollment(s),  Previous MOOC completed, Material status, Currently employed in a school,  Currently enrolled in school, Bachelors degree, Advanced degree, Parent with a bachelor degree,  Parent with an advanced degree, Continent of living [94]"
+          },
+          {
+            "indicatorName": "Assignment quality and Epistemic network [42]",
+            "metrics": "Student essay keyword(s), All students essays keywords, Number of keywords, Assignment grade(s) [42]"
+          }
+        ]
+      },
+      {
+        "Name": "Review/Study",
+        "indicator": [
+          {
+            "indicatorName": "Discussion engagement(s) [49]",
+            "metrics": "Posts reads, Number of posts, Number of comments, Number of days student logged into a discussion, Number of times student logged into a discussion, Average session time, Average post length, Percent of sessions with posts, Number of reviews of own posts,  Number of reviews of other posts [49]"
+          },
+          {
+            "indicatorName": "Self-monitoring and Awareness and Learning pattern [53]",
+            "metrics": "Number of resources used, Resource usage time, Minimum number of resources used, Maximum number of resources used, Average number of resources used, Minimum time spent, Maximum time spent, Average time spent [53]"
+          },
+          {
+            "indicatorName": "Recommendation and Software recommendation and Tool(s) recommendation [141]",
+            "metrics": "Average time spent on a document, Maximum time spent on a document, Minimum time spent on a document, Average time of the day student(s) work, Total time spent on the course, Amount of time spent during a different point in time of the day, number of documents, Number of the student, Average number of documents used, Maximum number of documents used, Minimum number of documents used [141]"
+          }
+        ]
+      },
+      {
+        "Name": "Watching (videos)",
+        "indicator": [
+          {
+            "indicatorName": "Classifying student behavior [29]",
+            "metrics": "Number of answers, Number of questions asked, Number of videos watched, Time between videos watched [29]"
+          },
+          {
+            "indicatorName": "Feedback system (social comparison) [31]",
+            "metrics": "Quiz submission timeline, time watching video(s), time on the platform, number of videos accessed, number of forum visits, number of sessions per week, Number of questions attempted, percent of time spent on videos, percent of quizzes, mean session length between session(s), mean session time between session(s), average time on the platform per week, number of visited video lectures, number of forum contributions [31]"
+          },
+          {
+            "indicatorName": "Learning progress and Student efficiency (LMS usage) [62]",
+            "metrics": "Number of completed videos, Number of available videos, Number of started videos, Total video length, Total time spent on videos, Number of attempted exercises, Number of available exercises, Time spent on exercise(s), Time spent on the platform, Number of recommended exercise attempts [62]"
+          },
+          {
+            "indicatorName": "Social network analysis (SNL) [63]",
+            "metrics": "Number of emails received on social media, Number of emails sent on social media, Number of wall posts received, Number of status messages posted, Number of links shared, Number of member pages user has joined, Number of member pages user has networks joined, Number of photos posted, Number of friends, Number of connections, Number of posts written posted, Number of posts videos posted [63]"
+          },
+          {
+            "indicatorName": "Engagement and Performance [69]",
+            "metrics": "Student weekly participation(s), Student assignment participation(s), Student quizzes participation(s), Total student marks, Average student marks, Cumulative GPA in first three weeks, Student groups comparison, Student watched the video but did not participate, Students participated in the assessment, Grades in 60th percentile in first two weeks, Video views, Assignment submission(s), Watched video(s), Assessment participation [69]"
+          },
+          {
+            "indicatorName": "Video analytics and Self-reflection [72]",
+            "metrics": "Number of video annotations, Total annotations, Total videos, Videos watched [72]"
+          },
+          {
+            "indicatorName": "Learning behavior [76]",
+            "metrics": "Learner assessment completed (Completing - learners that complete the majority of assessments), Learner infrequently complete assessments (auditing - learners that watch most of the videos but infrequently complete assessments), Reduce engagement (Disengaging - learners that complete assessments at the start of the course but then reduce their engagement), Explore videos (Sampling - learners that explore some course videos) [76]"
+          },
+          {
+            "indicatorName": "Long-term engagement and Social network analysis (SNL) [90]",
+            "metrics": "score, grade, Number of posts initiated, Number of commented, Number of replies, Number of views, Video lecture, Number of video lectures downloaded, Number of video lectures played [90]"
+          },
+          {
+            "indicatorName": "Student classification and Video analytics [113]",
+            "metrics": "Number of pauses, Number of forward seeks, Number of backward seeks, Median duration of pause(s), Proportion of skipped video content, Replayed video length, Average video speed, Effective video speed change [113]"
+          },
+          {
+            "indicatorName": "Performance prediction [117]",
+            "metrics": "Midterm Exam Score, Final Exam Score, Time of regular study video watching, Viewing time, Number of sessions, Number of messages, Number of late submissions, Proof of reading the course instruction(s) [117]"
+          },
+          {
+            "indicatorName": "Learning Strategies [118]",
+            "metrics": "formative assessment done correctly, formative assessment done incorrectly, requesting the solution for a formative assessment item, watching a course video, reading course content [118]"
+          },
+          {
+            "indicatorName": "At-risk student and Performance [131]",
+            "metrics": "Timestamps time, Logins time, Logouts time, Resource views, Resource clicks, Video views, Total assignment attempts, Total assignment submissions, Time watching course video(s), Average views, Most viewed video segments, Video pause(s), Weekly prompt score, Class participation score [131]"
+          },
+          {
+            "indicatorName": "Learning pattern [132]",
+            "metrics": "Number of videos watched, Number of students, Number of assignment submissions, Number of forum posts, Number of forum views, Number of forum participants, Number of videos, Number of video pauses, Number of video-watching days, Returns to most recently watched video, Returns after a long time, Returns to previously skipped, Overall grade, Student education background, Number of student replies with strong education background, Number of student replies with college-level education background [132]"
+          },
+          {
+            "indicatorName": "Mediation analysis [135]",
+            "metrics": "Student gender, Student race, Student ethnicity, Free lunch status, reduced lunch status, Math score(s), Math pre-score, A proxy for math preparedness, Number of logins, Number of  logouts, Clickstream, Question(s), Discussion(s), Number of videos, Number of searched videos, Number of video pauses, Video views, videos watched, Number of attempts to solve problems, Number of sessions, Number of wall posts, Number of comments, Number of pages searched, Number of students, Number of teachers, Average number of students per teacher [135]"
+          },
+          {
+            "indicatorName": "Video engagement and Video analytics [138]",
+            "metrics": "Video(s) watched, In-video question(s), Correct answer(s), incorrect answer(s), Weekly quizzes, Weekly tests, Assignment(s), Number of students reads, Grade(s) [138]"
+          },
+          {
+            "indicatorName": "Self-motivation and Self-regulation [139]",
+            "metrics": "Course grade(s), Number of videos, Number of videos watched, Frequently watched video(s), Number of Quizzes, Number of assignments, Number of files, Number of forums, Clickstream [139]"
+          },
+          {
+            "indicatorName": "Track performance and Track behavior and Learning strategies [46]",
+            "metrics": "Final grade, Course pass, Course fail, Number of video interactions, Number of quiz submissions, Number of posts, Duration of time in the course, Duration of total appearance, Response submission(s), Post exam quiz score, Learner intention(s), Prior education level [46]"
+          },
+          {
+            "indicatorName": "Student success prediction [94]",
+            "metrics": "Student demographic(s), Student gender, Student age, Previous MOOC enrollment(s),  Previous MOOC completed, Material status, Currently employed in a school,  Currently enrolled in school, Bachelors degree, Advanced degree, Parent with a bachelor degree,  Parent with an advanced degree, Continent of living [94]"
+          },
+          {
+            "indicatorName": "Engagement and Disengagement (multimodal) [38]",
+            "metrics": "Number of video segments, Number of segments per participant, Number of left-hand gestures, Number of right-hand gestures, Number of wrist gestures, Number of movements, Number of gestures [38]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) [156]",
+            "metrics": "Correctly solving a summative assessment item, Incorrectly attempted summative assessment item, Correctly solved formative assessment item (MCQ), Incorrectly attempted formative assessment item (MCQ), Solution request for an MCQ, Course video load, Course video play, Course video pause, Course video end, Reading materials access, Dashboard access, Index page access, Project page access, Accessing the schedule objective page(s), Accessing the learning objective page(s) [156]"
+          },
+          {
+            "indicatorName": "Student success prediction (blended learning) [158]",
+            "metrics": "Timestamp, Add a post, Add user, Click bookmark, Click course tool heading, Click navigation bar, Click resume, Load video, Click next page, Page close, Pause video, Play video, Previous page, Reset problem, Save answer of a problem, Seek video, Course content clip(s), Server grade(s) submitted, Server problem checked, Click show answer of a problem, Speed change video, Submit problem, User enrollment, Video completed, Forum view(s) [158]"
+          },
+          {
+            "indicatorName": "Thermal video analytics (multimodel) [162]",
+            "metrics": "Number of students, Student age, Students background, Video lecture(s), Lecture topic(s), Text-based data, Animated-based slide(s), Animated-based annotated image(s), Questionnaire, Faisal expression(s), Facial temperature, Average change in forehead temperature, Mean change in forehead temperature, Average change in nose temperature, Mean change in nose temperature, Timestamp(s), Eye movement(s) [162]"
+          },
+          {
+            "indicatorName": "Collaborative engagement (multimodal - child interaction with robot) [166]",
+            "metrics": "Video recording(s), Total sessions, Voice frequency, Speech recognition, Kinesics, Eye contact, Gaze orientation (looking at the robot), Body orientation (facing peer or robot), Posture (leaning forward), Gestures, Gesture of ideas (representing a concept), Enactments of ideas (representing a concept), Facial expression(s), Robot generated question(s), Question response(s), Peer discussion (initiated - extended or elaborated), Robot discussion (initiated - extended or elaborated), Initiating a talk related to the current topic, robot Self-talk, robot mumbling, peer Self-talk, peer mumbling [166]"
+          },
+          {
+            "indicatorName": "Learning strategies (trace data) [174]",
+            "metrics": "Answer the discussion, Undo vote for an answer in the discussion, Vote for an answer in the discussion, Follow discussion question, Unfollow discussion question, Vote discussion question, Exam question(s), Exam begin, Exam complete, Exam correct, Exam incorrect, Quiz question(s), Quiz begin, Quiz complete, Quiz correct, Quiz incorrect, Supplement start, Access the extra reading material(s), Supplement complete, Video begins, Video download, Video end, Video pause, Video play, Video playback rate, Video seek, Video subtitle change, Video subtitle download, Video volume change, Video wait to load, Page preload, Page view [174]"
+          },
+          {
+            "indicatorName": "Resource recommendation (videos keyword extraction) [175]",
+            "metrics": "Separation of the audio track from the video, Segmentation of audio track, Transcription speech to text, Keyword extraction, keyword spotting, Keyword(s), Important keywords in relation to the topic, Suitable keywords but not important, Irrelevant keywords to the topic, Suitable resources, helpful resource(s), Suitable but not helpful resources, Unsuitable resource(s), Learning resource(s) [175]"
+          }
+        ]
+      },
+      {
+        "Name": "Presentation",
+        "indicator": [
+          {
+            "indicatorName": "Presentation skill(s) (multimodal) [35]",
+            "metrics": "Video Sensor Data, Body movement, Number of hand gestures, Total gestures, Audio sensor data, Voice speed, Voice level, Number of pauses [35]"
+          },
+          {
+            "indicatorName": "Presentation skill(s) (multimodal) [40]",
+            "metrics": "Gaze tracking, Gaze tracking using a camera, Body posture, Body posture using a camera, Number of pauses, Pauses using an audio sensor, Volume using an audio sensor, Number of movements, Number of gestures [40]"
+          }
+        ]
+      },
+      {
+        "Name": "Rating/Ranking",
+        "indicator": [
+          {
+            "indicatorName": "Course assessment(s) [55]",
+            "metrics": "Number of students, Number of Topics, Number of Tags, Student background, Course material(s), Student achievement(s), Student Grade(s), Resources used, MCQs, Question(s), Rating(s), Discussion(s) [55]"
+          },
+          {
+            "indicatorName": "Performance rating monitor [128]",
+            "metrics": "Marker count, Memo count, Time spent, Reading completion, Sequence, Marker content, Memo content, Engagement score, Engagement rating, Active reading rating, Performance rating, Attendance rating, Student rating, Teacher rating, Assessment score(s) [128]"
+          },
+          {
+            "indicatorName": "Self-assessment(s) and Adaptive recommendation [125]",
+            "metrics": "Time spent online, Peer(s) feedback, Feedback for assignment(s), Rating learning material, Time to complete a task, Time to complete read a text, Comparison with fellow student(s) score, Considering the student(s) personal calendar for appropriate learning recommendation(s), Newsfeed with relevant news matching the learning content revision of former learning content, Reminder for deadline(s), Term scheduler [125]"
+          },
+          {
+            "indicatorName": "Peer assessment ability [73]",
+            "metrics": "Peer grading, Peer rating, Number of peers, Grade(s), Mean of grade(s), Median of grade(s), Number of assignments, Number of reports [73]"
+          },
+          {
+            "indicatorName": "Online Discussion (forum) Behavior and Reflection [52]",
+            "metrics": "Reputation of the person posting a question, Reputation of the person posting an answer, Background of person, Posting history, Rating(s), Connection(s) [52]"
+          },
+          {
+            "indicatorName": "Activities recommendation and Resource recommendation [112]",
+            "metrics": "Resource rating, Current student competence, Former student(s) competence [112]"
+          },
+          {
+            "indicatorName": "Measure success and successful student and Social network analysis (SNA) [93]",
+            "metrics": "Gender, Age, Student achievements, Student group, Instructor group, Student(s) mutual ties, Rating(s), Existence of simmelian ties, Simmelian tie(s), Social MOOC connection(s), Number of connection(s), Degree centrality, Closeness centrality, Betweenness centrality [93]"
+          },
+          {
+            "indicatorName": "Course recommendation [168]",
+            "metrics": "Length of the number of unique words, Non-zero value if the word in the vocabulary, Term weight, Term frequency, Course rating, Course rank, Number of courses, Course number, Course title, Course catalog description [168]"
+          },
+          {
+            "indicatorName": "Student-controlled social comparison [182]",
+            "metrics": "Total activity access, Number of sessions, Unique question(s) attempted, Unique person(s) attempted, Unique challenge(s) attempted, Unique animated example(s) viewed, Unique example(s) viewed, Number of social comparison events, Total comparison group changes, Change to a lower group, Change to an average group, Change to a higher group, Ranked list views, Timestamp [182]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ea00ffa04b09a3303f7ca19"
+    },
+    "LearningEvents": "Imitate",
+    "LearningActivities": [
+      {
+        "Name": "Exercise (Training)",
+        "indicator": [
+          {
+            "indicatorName": "Self-regulated learning (SRL) and Emotional state [36]",
+            "metrics": "Student attendance, Exercise activities, Classroom activities, Group work activities, Satisfaction questionnaire, Positive emotion (Enjoyment / Hope / Pride / Confidence / Excitement /Interest), Negative emotion (Anxiety / Anger / Shame / Hopelessness / Boredom / Frustration), Interviews [36]"          
+          },
+          {
+            "indicatorName": "Learning progress and Student efficiency (LMS usage) [62]",
+            "metrics": "Number of completed videos, Number of available videos, Number of started videos, Total video length, Total time spent on videos, Number of attempted exercises, Number of available exercises, Time spent on exercise(s), Time spent on the platform, Number of recommended exercise attempts [62]"
+          },
+          {
+            "indicatorName": "Social network analysis (SNL) and Discussion forum analysis and Discourse analysis [88]",
+            "metrics": "Lecture(s) discussion thread(s), Exercise(s) discussion thread(s), Quizzes discussion threads, Total users, Total anonymous users, Total user posts, Total anonymous posts, Total replies [88]"
+          },
+          {
+            "indicatorName": "Learning behavior pattern(s) [111]",
+            "metrics": "Number of correctly solved assessment exercises, Number of incorrectly solved assessment exercises, Number of correctly solved MCQs, Number of incorrectly solved MCQs, Number of solutions requested for an assessment item, Course Video views, Reading material page view(s), Dashboard view(s), Schedule objective page view(s), learning objective page view(s) [111]"
+          },
+          {
+            "indicatorName": "Academic performance and Learning strategies [129]",
+            "metrics": "Videos with MCQs, Reading material(s) with MCQs, Problem-solving exercise(s), Correct exercise(s), Incorrect exercise(s), Correct MCQs, Incorrect MCQs, Solution requested for MCQs, Play the course video, Pause the course video, End the course video, Reading material(s) visit(s), Index page visit(s), Project information page visit(s), Dashboard visit(s), Search for a keyword, Documents downloads, Files downloads [129]"
+          },
+          {
+            "indicatorName": "Cognitive load and Self-efficacy (with academic performance and trace data) [133]",
+            "metrics": "Student engagement with the pre-class course activities, Reading material(s), Number of videos, Number of quizzes, Number of MCQs, Number of exercises, Number of questions, Number of correct answers, Number of incorrect answers, Request solution(s), Number of clicks, Number of views, Timestamp, Number of evaluations per student, Number of evaluations per activity, final exam score [133]"
+          },
+          {
+            "indicatorName": "Academic success and Course recommendation [67]",
+            "metrics": "Prior record(s), High school record(s), ACT math score, SAT math score, AP calculus exam score, Enrolled course(s), Number of credits, Semester GPA [67]"
+          }
+        ]
+      },
+      {
+        "Name": "Presentation",
+        "indicator": [
+          {
+            "indicatorName": "Presentation skill(s) (multimodal) [35]",
+            "metrics": "Video Sensor Data, Body movement, Number of hand gestures, Total gestures, Audio sensor data, Voice speed, Voice level, Number of pauses [35]"
+          },
+          {
+            "indicatorName": "Presentation skill(s) (multimodal) [40]",
+            "metrics": "Gaze tracking, Gaze tracking using a camera, Body posture, Body posture using a camera, Number of pauses, Pauses using an audio sensor, Volume using an audio sensor, Number of movements, Number of gestures [40]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ea004fa04b09a3303f7c688"
+    },
+    "LearningEvents": "Explore",
+    "LearningActivities": [
+      {
+        "Name": "Examine",
+        "indicator": [
+          {
+            "indicatorName": "Learning behavior [76]",
+            "metrics": "Learner assessment completed (Completing - learners that complete the majority of assessments), Learner infrequently complete assessments (auditing - learners that watch most of the videos but infrequently complete assessments), Reduce engagement (Disengaging - learners that complete assessments at the start of the course but then reduce their engagement), Explore videos (Sampling - learners that explore some course videos) [76]"
+          },
+          {
+            "indicatorName": "Passing probability [33]",
+            "metrics": "Score in practical activities, Score in theoretical activities, Similarity to peers wrt LMS usage [33]"
+          },
+          {
+            "indicatorName": "Dropout prediction and At-risk student and Early warning [82]",
+            "metrics": "Gender, Age, Yearly absence, Tardiness rate, Number of suspension incidents, Number of unexpected entries, Number of withdrawals, Whether a student is new to the school district, Quarter marking period average, Math proficiency level, Whether a student was retained in a grade, Whether a student graduated from high school on time [82]"
+          }
+        ]
+      },
+      {
+        "Name": "Survey (Questionnaire)",
+        "indicator": [
+          {
+            "indicatorName": "MOOC completion [110]",
+            "metrics": "Number of Videos per week, Number of posts per week, Number of comments per week, Age, English skill(s), Education level, Mooc pre-survey [110]"
+          },
+          {
+            "indicatorName": "Student success prediction [94]",
+            "metrics": "Student demographic(s), Student gender, Student age, Previous MOOC enrollment(s),  Previous MOOC completed, Material status, Currently employed in a school,  Currently enrolled in school, Bachelors degree, Advanced degree, Parent with a bachelor degree,  Parent with an advanced degree, Continent of living [94]"
+          },
+          {
+            "indicatorName": "Course recommendation [168]",
+            "metrics": "Length of the number of unique words, Non-zero value if the word in the vocabulary, Term weight, Term frequency, Course rating, Course rank, Number of courses, Course number, Course title, Course catalog description [168]"
+          }
+        ]
+      },
+      {
+        "Name": "Search",
+        "indicator": [
+          {
+            "indicatorName": "Academic performance and Learning strategies [129]",
+            "metrics": "Videos with MCQs, Reading material(s) with MCQs, Problem-solving exercise(s), Correct exercise(s), Incorrect exercise(s), Correct MCQs, Incorrect MCQs, Solution requested for MCQs, Play the course video, Pause the course video, End the course video, Reading material(s) visit(s), Index page visit(s), Project information page visit(s), Dashboard visit(s), Search for a keyword, Documents downloads, Files downloads [129]"
+          },
+          {
+            "indicatorName": "Mediation analysis [135]",
+            "metrics": "Student gender, Student race, Student ethnicity, Free lunch status, reduced lunch status, Math score(s), Math pre-score, A proxy for math preparedness, Number of logins, Number of  logouts, Clickstream, Question(s), Discussion(s), Number of videos, Number of searched videos, Number of video pauses, Video views, videos watched, Number of attempts to solve problems, Number of sessions, Number of wall posts, Number of comments, Number of pages searched, Number of students, Number of teachers, Average number of students per teacher [135]"
+          },
+          {
+            "indicatorName": "Resource recommendation (videos keyword extraction) [175]",
+            "metrics": "Separation of the audio track from the video, Segmentation of audio track, Transcription speech to text, Keyword extraction, keyword spotting, Keyword(s), Important keywords in relation to the topic, Suitable keywords but not important, Irrelevant keywords to the topic, Suitable resources, helpful resource(s), Suitable but not helpful resources, Unsuitable resource(s), Learning resource(s) [175]"
+          }
+        ]
+      },
+      {
+        "Name": "Procedural actions (keystroke, hits/clicks, clickstream, views, visits, interactions, downloads)",
+        "indicator": [
+          {
+            "indicatorName": "Affective state and Text analysis [85]",
+            "metrics": "Number of keystrokes per essay, Number of backspaces per essay, Total keystrokes, Longest time between keystrokes per essay, Shortest time between keystrokes per essay, Mean keystroke latency, Median keystroke latency, Initial pause before writing an essay, Number of pauses above 0.5 seconds, Number of pauses above 1 second, Number of pauses above 1.5 seconds, Number of pauses above 2 seconds, Number of pauses above 3 seconds [85]"
+          },
+          {
+            "indicatorName": "Pass Classification and Fail Classification and Keystroke analytics [120]",
+            "metrics": "Number of Successful compilations, Successful compilations average complexity, Number of Failed compilations, Failed compilations average complexity, Ratio between on-campus connection(s), Radio between off-campus connection(s), Number of Connections, Time spent on the platform, Time spent on slides within the platform, Time spent typing in platform, Time idle in platform, Slides coverage, Number of Slides visited, Number of Slides opened, Number of Transactions, Number of Transactions during, Number of Transactions outside labs, Number of Transactions in the platform [120]"
+          },
+          {
+            "indicatorName": "Final grade prediction [28]",
+            "metrics": "Number of bookmarks in a group, Total bookmarks, Number of New blog posts in the group blog, Number of blog posts, Number of Topics that each user has uploaded on group discussion, Number of topics, Number of Uploads of new files on group files page, Number of comments on bookmarks uploaded by other group member(s), Number of comments on blog posts in the group blog, Number of comments on topics of group discussion, Number of comments on files uploaded by other group member(s), Number of comments on wire posts of other group members [28]"
+          },
+          {
+            "indicatorName": "Dropping out [59]",
+            "metrics": "LMS activities, Total hits, Total clicks, Total views, Total logins, Total sessions [59]"
+          },
+          {
+            "indicatorName": "Passing rate and Performance prediction and Awareness [26]",
+            "metrics": "Average Grade, LMS click(s), Number of Clicks in LMS, Lecture Attendance, Time spent on courses, Time spent on the course(s), Submitted time, Time submitted before the deadline, Time before first attempt [26]"
+          },
+          {
+            "indicatorName": "At-risk student and Early warning [101]",
+            "metrics": "Student age, Student qualification, Student region, Student gender, Declared disability, Number of previous attempts, Number of currently studied credits, Number of consecutive active days, First day of activity, Last day of activity, Number of clicks, Number of average and median of clicks, Number of materials visited per day, Number of active days in VLE, Number of resource, Number of forum clicks per day [101]"
+          },
+          {
+            "indicatorName": "Success prediction [105]",
+            "metrics": "Assessment grade, Average grade, Number of online sessions, Total online time, Average time per session, Time until first activity, Number of courses, Number of resources views, Irregularity of study time, Irregularity of study interval, Largest period of inactivity, Number of clicks, Number of links, Number of content views, Number of discussion posts, Number of discussion views, Number of quizzes started, Number of attempts per quiz, Number of quizzes passed, Number of quiz views, Number of assignments submitted, Number of assignment views, Number of Wiki views [105]"
+          },
+          {
+            "indicatorName": "Procrastination [107]",
+            "metrics": "Number of Clicks in mandatory resources, Number of Clicks in  Recommended resources, Number of Submitted assignments, Time spent until completed quizzes, Time until first click on a mandatory resource, Time until first click on a Recommended resource, Time until first submission of an assignment, Time until first attempt in the evaluation test, Student grade [107]"
+          },
+          {
+            "indicatorName": "Student comparison and Self-motivation and Predict grade [130]",
+            "metrics": "Total Number of clicks, Total Number of views, Number of content views, Number of content clicks, Total lectures, Total practicals, Total coursework clicks, Average time of content accesses, Total time of content accesses, Number of days per week, Average time between content accesses, Average group size of simultaneous content accesses, Number of clicks grouped by parent folder, Number of seen content, Number of unseen content, Number of total lecture views, Module grade(s), Attendance [130]"
+          },
+          {
+            "indicatorName": "At-risk student and Performance [131]",
+            "metrics": "Timestamps time, Logins time, Logouts time, Resource views, Resource clicks, Video views, Total assignment attempts, Total assignment submissions, Time watching course video(s), Average views, Most viewed video segments, Video pause(s), Weekly prompt score, Class participation score [131]"
+          },
+          {
+            "indicatorName": "Cognitive load and Self-efficacy (with academic performance and trace data) [133]",
+            "metrics": "Student engagement with the pre-class course activities, Reading material(s), Number of videos, Number of quizzes, Number of MCQs, Number of exercises, Number of questions, Number of correct answers, Number of incorrect answers, Request solution(s), Number of clicks, Number of views, Timestamp, Number of evaluations per student, Number of evaluations per activity, final exam score [133]"
+          },
+          {
+            "indicatorName": "Track performance and Track behavior and Learning strategies [46]",
+            "metrics": "Final grade, Course pass, Course fail, Number of video interactions, Number of quiz submissions, Number of posts, Duration of time in the course, Duration of total appearance, Response submission(s), Post exam quiz score, Learner intention(s), Prior education level [46]"
+          },
+          {
+            "indicatorName": "At-risk student and Retention prediction [64]",
+            "metrics": "Total clicks, Total views, Clickstream, Quiz grade(s) [64]"
+          },
+          {
+            "indicatorName": "Clickstream analysis and Student behavior [103]",
+            "metrics": "Number of clicks, Number of views, Number of downloads, Time detection, Views file prior to the event start date, Downloads file prior to the event start date, Views file after the event end date, Downloads file after event end date [103]"
+          },
+          {
+            "indicatorName": "Mediation analysis [135]",
+            "metrics": "Student gender, Student race, Student ethnicity, Free lunch status, reduced lunch status, Math score(s), Math pre-score, A proxy for math preparedness, Number of logins, Number of logouts, Clickstream, Question(s), Discussion(s), Number of videos, Number of searched videos, Number of video pauses, Video views, videos watched, Number of attempts to solve problems, Number of sessions, Number of wall posts, Number of comments, Number of pages searched, Number of students, Number of teachers, Average number of students per teacher [135]"
+          },
+          {
+            "indicatorName": "Online change detection [137]",
+            "metrics": "Number of students, Average of quiz score, Standard deviation of quiz score, Number of clicks, Average clicks, Standard deviation of click(s), Time duration [137]"
+          },
+          {
+            "indicatorName": "Self-motivation and Self-regulation [139]",
+            "metrics": "Course grade(s), Number of videos, Number of videos watched, Frequently watched video(s), Number of Quizzes, Number of assignments, Number of files, Number of forums, Clickstream [139]"
+          },
+          {
+            "indicatorName": "Discussion forum quality [27]",
+            "metrics": "Average Number of messages posted, Number of comments compared to the average class contributor(s), Number of comments compared to the top class contributor(s), Number of posted messages per forum, Number of visualization views per forum, Visualization views, Forum message(s) [27]"
+          },
+          {
+            "indicatorName": "Group Participation [30]",
+            "metrics": "Number of Content read, Number of words produced, Number of comments, Student active in discussion(s), Student Passive in discussion(s), Activity timing, Content view(s), Web resource(s), Discussion(s) post(s) [30]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) and Emotional state [36]",
+            "metrics": "Student attendance, Exercise activities, Classroom activities, Group work activities, Satisfaction questionnaire, Positive emotion (Enjoyment / Hope / Pride / Confidence / Excitement /Interest), Negative emotion (Anxiety / Anger / Shame / Hopelessness / Boredom / Frustration), Interviews [36]"          
+          },
+          {
+            "indicatorName": "Exam success prediction [60]",
+            "metrics": "Number of logins, Number of days access, total sessions, Total clicks, Total views, exams, Total post viewed, Total post created [60]"
+          },
+          {
+            "indicatorName": "Engagement and Performance [69]",
+            "metrics": "Student weekly participation(s), Student assignment participation(s), Student quizzes participation(s), Total student marks, Average student marks, Cumulative GPA in first three weeks, Student groups comparison, Student watched the video but did not participate, Students participated in the assessment, Grades in 60th percentile in first two weeks, Video views, Assignment submission(s), Watched video(s), Assessment participation [69]"
+          },
+          {
+            "indicatorName": "Grade prediction (by performance or course difficulty level) [83]",
+            "metrics": "GPA over the previous course(s), Average grade achieved, Student collaboration(s), Forum discussions initiated, Forum discussions view(s), Course material views, Number of course contributions, Course contributions [83]"
+          },
+          {
+            "indicatorName": "Affective State [84]",
+            "metrics": "Feedback view(s), Feedback followed [84]"
+          },
+          {
+            "indicatorName": "Learning behavior pattern(s) [111]",
+            "metrics": "Number of correctly solved assessment exercises, Number of incorrectly solved assessment exercises, Number of correctly solved MCQs, Number of incorrectly solved MCQs, Number of solutions requested for an assessment item, Course Video views, Reading material page view(s), Dashboard view(s), Schedule objective page view(s), learning objective page view(s) [111]"
+          },
+          {
+            "indicatorName": "Final grade prediction [119]",
+            "metrics": "Number of forums, Number of posts, Number of views, Number of quiz attempts, Assignment submission deadline, Time of assignment submission before the deadline, Peer grading, Time of peer grading before the deadline [119]"
+          },
+          {
+            "indicatorName": "Productivity and Collaboration [124]",
+            "metrics": "Number of discussion posts, Number of blog posts, Number of files, Number of pages, Number of discussion comments, Number of blog comments, Number of comments in a file(s), Number of comments in page(s), Number of views, Number of contacts made, Final grade(s), Average score, Course, Average number of actions, Average number of connections [124]"
+          },
+          {
+            "indicatorName": "Learning patterns [132]",
+            "metrics": "Number of videos watched, Number of students, Number of assignment submissions, Number of forum posts, Number of forum views, Number of forum participants, Number of videos, Number of video pauses, Number of video-watching days, Returns to most recently watched video, Returns after a long time, Returns to previously skipped, Overall grade, Student education background, Number of student replies with strong education background, Number of student replies with college-level education background [132]"
+          },
+          {
+            "indicatorName": "Performance [25]",
+            "metrics": "Login time, Login Frequency, Repository visit(s), Total time spent [25]"
+          },
+          {
+            "indicatorName": "Feedback system (social comparison) [31]",
+            "metrics": "Quiz submission timeline, time watching video(s), time on the platform, number of videos accessed, number of forum visits, number of sessions per week, Number of questions attempted, percent of time spent on videos, percent of quizzes, mean session length between session(s), mean session time between session(s), average time on the platform per week, number of visited video lectures, number of forum contributions [31]"
+          },
+          {
+            "indicatorName": "Resource usage awareness and Self-regulated learning (SRL) [39]",
+            "metrics": "Application timestamp, User posts, Blog comment(s), Course tweet timestamp, Number of posts, Number of tweets, Total comments, Total visits, Group work discussion [39]"
+          },
+          {
+            "indicatorName": "Feedback [41]",
+            "metrics": "Student grade(s), Number of finished tasks, Number of logins, Number of course visits, learning activities (by clicks and views), Reading activities, Exam activities, Assignment activities [41]"
+          },
+          {
+            "indicatorName": "Teacher curriculum usage and Teacher curriculum planning and Teacher curriculum designing [65]",
+            "metrics": "Number of logins, Number of logouts, Number of teacher logins, Time span for visit(s), Number of visits, Teacher activities, Student grades improved, Student grades remained the same, Student grades dropped [65]"
+          },
+          {
+            "indicatorName": "Student performance and Student comparison [126]",
+            "metrics": "Number of students, Number of visits, Average class visits, Average of active students, Highest visits, Quiz result(s), Number of discussion forums, Number of discussion forum views, Number of discussion forum participation [126]"
+          },
+          {
+            "indicatorName": "Academic performance and Learning strategies [129]",
+            "metrics": "Videos with MCQs, Reading material(s) with MCQs, Problem-solving exercise(s), Correct exercise(s), Incorrect exercise(s), Correct MCQs, Incorrect MCQs, Solution requested for MCQs, Play the course video, Pause the course video, End the course video, Reading material(s) visit(s), Index page visit(s), Project information page visit(s), Dashboard visit(s), Search for a keyword, Documents downloads, Files downloads [129]"
+          },
+          {
+            "indicatorName": "Student interaction patterns [121]",
+            "metrics": "Discussion forum interaction(s), post title, post description, author, post date, forum visit(s), forum Replies, Isolated student(s), Connection(s) [121]"
+          },
+          {
+            "indicatorName": "Writing Engagement [48]",
+            "metrics": "Number of Interactions with the document, Resource usage [48]"
+          },
+          {
+            "indicatorName": "User knowledge level [51]",
+            "metrics": "Number of user interactions, Number of user interactions actions, Question(s), Questionnaire, Task solving, Test, Forum replies, Forum answer(s) [51]"
+          },
+          {
+            "indicatorName": "Predictive analytics (by learning behavior) [75]",
+            "metrics": "Student interaction(s), Student previous interaction(s), Number of problems solved by Student, Student making error(s), Ranking(s) [75]"
+          },
+          {
+            "indicatorName": "Academic achievement prediction [81]",
+            "metrics": "LMS studying time frequency, LMS studying Login frequency, Regularity of learning interval in LMS, Number of downloads, Interactions with Peer(s), Interactions with Instructor, Forum activities [81]"
+          },
+          {
+            "indicatorName": "Feedback [91]",
+            "metrics": "Video clips interaction(s), Questions next to video clip(s), Resource access, Dashboard access [91]"
+          },
+          {
+            "indicatorName": "Performance prediction and Self-regulated learning (SRL) [98]",
+            "metrics": "LMS interactions, Number of clicks, Number of views, Interactions with video(s), Interactions with multiple choice question(s) next to the video(s), Interactions with questions in course note(s), Access to HTML resource(s), Expanding of a section, Collapsing of a section, Dashboard access [98]"
+          },
+          {
+            "indicatorName": "Game-based learning and Game learning strategy and Game performance prediction [104]",
+            "metrics": "Number of game teams, Number of game team members, Game simulation interaction(s), Explore activity game mode(s), Challenge activity game mode(s), Number of game explores, Number of challenge game questions, Number of game questions, Number of remaining game questions, Correct game answer(s), Incorrect game answer(s), Time spent answering in game, Number of students, Number of students completed challenge questions in the game, Number of challenge attempts in a game, Number of correctly answered questions in game, Total game scores, Total game points [104]"
+          },
+          {
+            "indicatorName": "Student interaction patterns (Relation to performance) [127]",
+            "metrics": "Time spent, Number of Interactions, Achievement high, Achievement low, Number of Early bird interactions, Number of Early course interactions, Grade [127]"
+          },
+          {
+            "indicatorName": "Student grade(s) prediction [115]",
+            "metrics": "Total number of groups, Total File uploads, Total downloads, Total edits, Total changes, Total comments, Total comments reads, Peer grading, Vote for accomplishment [115]"
+          },
+          {
+            "indicatorName": "At-Risk Student(s) [122]",
+            "metrics": "Gender, Age, GPA, Grade(s), Number of sessions opened, Number of content viewed, Number of discussions read, Number of discussions posted, Number of assignments committed, Number of assessments submitted, Number of course sessions compared to course average, Number of content Resources viewed compared to course average, Full-time enrollment, part-time enrollment [122]"
+          },
+          {
+            "indicatorName": "Disengaged behavior (carelessness) [106]",
+            "metrics": "Number of slips, Number of actions, Mean of action(s), Mean of activities, Numbers of different types of actions that occurred during the slip, Number of complete and student interrupted trial(s), Student making error despite knowing the solution [106]"
+          },
+          {
+            "indicatorName": "Student(s) classification [92]",
+            "metrics": "Total time to answer correctly, Total time to answer incorrectly, Total idle time, Effort composite feature, Actual performance, Goal expectancy, Student(s) score, Number of changes to answer, Number of idle time student(s) spend(s) viewing task, Number of times student(s) view task [92]"
+          },
+          {
+            "indicatorName": "Time management and Procrastination and Performance prediction [123]",
+            "metrics": "Peak on day hour, Peak on a weekday, Weeks similarity measure, Periodicity of day hour, Periodicity of week hour, Periodicity of weekday, Delay in lecture view [123]"
+          },
+          {
+            "indicatorName": "Early alert prediction and student retention [140]",
+            "metrics": "Student age, Student gender, Students academic load, Number of students, Number of total enrollments, Academic data current course, Academic data semester outcome [140]"
+          },
+          {
+            "indicatorName": "Engagement and Disengagement (multimodal) [38]",
+            "metrics": "Number of video segments, Number of segments per participant, Number of left hand gestures, Number of right hand gestures, Number of wrist gestures, Number of movements, Number of gestures [38]"
+          },
+          {
+            "indicatorName": "Students consistency level [151]",
+            "metrics": "Student id, Course id, learning action, Learning type, Type of device (User-agent - used for extracting the type of device used for the action), Device type, Action URL, Session number, Start time, End time [151]"
+          },
+          {
+            "indicatorName": "Teachers comparison [152]",
+            "metrics": "Teacher age, Teacher sex, Teacher experience, Teacher clicks, Teacher clickstream, Teacher group page click(s), Teacher time spent on the dashboard, Teacher indicator clicks, Teacher visit student group(s) [152]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) [153]",
+            "metrics": "Number of students, Student click(s), Student view(s), Assignment(s), Test scores, Quizzes, Report(s), Average grade, Cumulative average grade, Cumulative final grade, Student groups (high mid-high mid-low and low performance groups), SRL survey constructs, Student motivation, Student planning, Student monitoring, Student regulation [153]"
+          },
+          {
+            "indicatorName": "Student performance prediction [154]",
+            "metrics": "User ID, Timestamp, Course, LMS module, Student(s) module action(s), Action info, URL, Student final course mark(s), Number of assessments, Number of assessments submitted, Number of reexamined assessment requirements, Number of reexamined assignment views, Number of quizzes, Number of quizzes attempts, Course view(s), Forum view(s), Number of forum posts, Number of forum posts updated, Forum subscribe(s), Student feedback view(s), Student quiz summary view(s) [154]"
+          },
+          {
+            "indicatorName": "Time management and Learning strategies and Learning tactic(s) [157]",
+            "metrics": "Student interaction(s) with the online course activities, Student(s) assessment(s) grade(s), Student(s) quizzes grades, Timestamp of each event, Assignment view(s), Quiz view(s), Resource views, Forum view(s), Assignment attempt(s), Quiz attempt(s), Resource attempts, Forum attempt(s), Assignment update, quiz update, resource update, forum update, Forum discussion post, Course view(s), Overall course score, Anonymous user ID(s), Course module ID(s), Description of the learning action [157]"
+          },
+          {
+            "indicatorName": "Student success prediction (blended learning) [158]",
+            "metrics": "Timestamp, Add a post, Add user, Click bookmark, Click course tool heading, Click navigation bar, Click resume, Load video, Click next page, Page close, Pause video, Play video, Previous page, Reset problem, Save answer of a problem, Seek video, Course content clip(s), Server grade(s) submitted, Server problem checked, Click show answer of a problem, Speed change video, Submit problem, User enrollment, Video completed, Forum view(s) [158]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) (by behavioral logs) [163]",
+            "metrics": "The average amount of time secs spent on assignment page(s) within Canvas, The average time hours between a participants first access of an assignment, The average time hours between a participants first access of its submission, The average length of time per web session within Canvas where an assignment is accessed, The average number of HTTP requests page views in session(s) in which an assignment is accessed within Canvas, The average time minutes between first access of an assignment, The average time minutes between first access of an its submission, Submission(s), The number of assignment submissions created, The total count of views of assignments occurring prior to the deadline of the assignment, The total count of views of assignments occurring after the deadline of an assignment, The total count of web sessions in which an assignment was accessed, The total number of calendar page views, The longest period in hours between sessions within Canvas, The average time minutes between the submission and deadline for assignment(s), Course enrollment(s), Questionnaire, Assignment submission, Assignment due date, Assignment submission method, Assignment grade [163]"
+          },
+          {
+            "indicatorName": "Perceived difficulty and Text discrimination [164]",
+            "metrics": "Number of students, Number of interactions per student, Number of questions, Number of items, Number of interactions per item, Timestamp of the interaction, Correctness per student, Correctness per item, number of documents, Number of words occurrences per document, Number of words, Number of most frequent keywords, Timestamp(s) [164]"
+          },
+          {
+            "indicatorName": "Predict student performance (mouse movement) [165]",
+            "metrics": "Score record(s), Number of questions, Number of mouse movement trajectories, Trace mouse move, Trace mouse down, Trace mouse drag, Trace mouse up, Mouse movement Time length, Mouse movement Time percent, Mouse movement Event length, Mouse movement Event percent, Mouse movement first drag, Mouse movement drop, Mouse movement first-attempt event-end-index, Trace positions of the mouse during the whole problem-solving process, Number of students, Grade, Timestamp(s), Number of Total submissions, Number of 2nd submissions, Percent of submissions [165]"
+          },
+          {
+            "indicatorName": "Student engagement and Personalized feedback [170]",
+            "metrics": "Study program, Attendance, Gender, Age, Previous attainment, Number of quizzes, Quiz score, Student clicks, Student final course grade(s), Group interview, Group interview with students [170]"
+          },
+          {
+            "indicatorName": "Analyzing performance behavior and Analysing performance behavior [177]",
+            "metrics": "Student interactions with Moodle, Time interval(s), Number of events generated by students, Students number, Statements per student, Total statements, Total requirements, Iteration duration(s), Iterations number, Response time, Number of users, Number of requests, Number of iteration, Break time request(s), Number of statement for all requests, Number of iterations, Break time iteration(s), Total execution minimum time, Number of statements, Percent or error rate, Average response time ms, Minimum response time ms, Maximum response time ms [177]"
+          },
+          {
+            "indicatorName": "Diffusion network analytics and clustering student(s) and student cluster(s) [181]",
+            "metrics": "Number of posts initiated, Number of students, Number of teachers, Post ID, Subject, Content, Timestamp, Post author, Post target, Post replies, User IDs, User log(s), User role(s), Early post(s), Number of posts, Total views of the forum(s), Course grade(s), Group ID(s), Outdegree centrality, Indegree centrality, Degree centrality, Betweenness centrality, Closeness centrality, Diffusion centrality [181]"
+          },
+          {
+            "indicatorName": "Student-controlled social comparison [182]",
+            "metrics": "Total activity access, Number of sessions, Unique question(s) attempted, Unique person(s) attempted, Unique challenge(s) attempted, Unique animated example(s) viewed, Unique example(s) viewed, Number of social comparison events, Total comparison group changes, Change to a lower group, Change to an average group, Change to a higher group, Ranked list views, Timestamp [182]"
+          },
+          {
+            "indicatorName": "Learning path recommendation and students activities [183]",
+            "metrics": "Slide(s), Exercises for lab session(s), Quizzes, Final exam, Student ID, Timestamp of the interaction, Type of access, Type of view, Type of submit, Resource ID, Score for quizzes, Score for quizzes exam, Number of students, Number of resources, Number of learning records, Median number of students learning records, Average number of learning records [183]"
+          },
+          {
+            "indicatorName": "Self-directed learning and student feedback [184]",
+            "metrics": "Student-logged data, All students interaction(s), Time spent on the various component(s) of the course, MCQs, Uploading resource(s), Attempting and reattempting the synopses, Answering the assessment question(s), Post-course student(s) response(s) [184]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ea01e1504b09a3303f7cea5"
+    },
+    "LearningEvents": "Experiment",
+    "LearningActivities": [
+      {
+        "Name": "Game or puzzle",
+        "indicator": [
+          {
+            "indicatorName": "Game Badge earned and Game-based learning [43]",
+            "metrics": "Learning objectives reached in-game, In-game objectives, Game points earned, Total points, Quiz score, Exam score [43]"
+          },
+          {
+            "indicatorName": "Gamification and Game-based learning [45]",
+            "metrics": "Game point(s), Points earned, Number of attempts to solve in-game question, In-game question, Number of correct attempts in-game, Number of incorrect attempts in-game, Total game attempts, Game time [45]"
+          },
+          {
+            "indicatorName": "Game-based learning and Game learning strategy and Game performance prediction [104]",
+            "metrics": "Number of game teams, Number of game team members, Game simulation interaction(s), Explore activity game mode(s), Challenge activity game mode(s), Number of game explores, Number of challenge game questions, Number of game questions, Number of remaining game questions, Correct game answer(s), Incorrect game answer(s), Time spent answering in game, Number of students, Number of students completed challenge questions in the game, Number of challenge attempts in a game, Number of correctly answered questions in game, Total game scores, Total game points [104]"
+          },
+          {
+            "indicatorName": "Game-based learning and Game analytics [169]",
+            "metrics": "Student identifier, Student grade, Timestamp indicating game level attempt completion, Login game session identifier, Login place in-game, Objective game number, Game number, Game level number, Game level count(s), Prior game level attempt(s), Count of previously passed game level(s), Number of game puzzles passed, Number of total game puzzles in a level [169]"
+          },
+          {
+            "indicatorName": "Game-based learning and Game analytics (curriculum sequencing) [172]",
+            "metrics": "Total Number of students, Total game objectives, Total game levels, Total game puzzles, Number of game objectives played, Highest number of students that completed the first N game objective in the same order, Total game retries by students, Districts in game, Percentage of game retries by districts [172]"
+          }
+        ]
+      },
+      {
+        "Name": "Problem solving",
+        "indicator": [
+          {
+            "indicatorName": "Engaged Concentration [74]",
+            "metrics": "Number of response(s), time spent on a problem, average correctness in last 20 second(s), Number of total hint(s) [74]"
+          },
+          {
+            "indicatorName": "Predictive analytics (by learning behavior) [75]",
+            "metrics": "Student interaction(s), Student previous interaction(s), Number of problems solved by Student, Student making error(s), Ranking(s) [75]"
+          },
+          {
+            "indicatorName": "Academic performance and Learning strategies [129]",
+            "metrics": "Videos with MCQs, Reading material(s) with MCQs, Problem-solving exercise(s), Correct exercise(s), Incorrect exercise(s), Correct MCQs, Incorrect MCQs, Solution requested for MCQs, Play the course video, Pause the course video, End the course video, Reading material(s) visit(s), Index page visit(s), Project information page visit(s), Dashboard visit(s), Search for a keyword, Documents downloads, Files downloads [129]"
+          },
+          {
+            "indicatorName": "Mediation analysis [135]",
+            "metrics": "Student gender, Student race, Student ethnicity, Free lunch status, reduced lunch status, Math score(s), Math pre-score, A proxy for math preparedness, Number of logins, Number of logouts, Clickstream, Questions in discussion(s), Number of videos, Searched videos, Number of video pauses, Video views, Videos watched, Number of attempts to solve problems, Number of sessions, Number of wall posts, Number of comments, Number of pages searched, Number of students, Number of teachers, Average number of students per teacher [135]"
+          },
+          {
+            "indicatorName": "Student success prediction [94]",
+            "metrics": "Student demographic(s), Student gender, Student age, Previous MOOC enrollment(s),  Previous MOOC completed, Material status, Currently employed in a school,  Currently enrolled in school, Bachelors degree, Advanced degree, Parent with a bachelor degree,  Parent with an advanced degree, Continent of living [94]"
+          },
+          {
+            "indicatorName": "Dropout prediction [136]",
+            "metrics": "Student age, Gender, Number of courses, Number of approved courses, Number of failed courses, Number of failed courses per semester, Maximal number of repetitions, Grades mean per semester, Grades mean overall, Difference between grade mean of the semester, Difference between grade mean of the semester overall, Number of courses enrolled last semester, Number of credits attempted, Number of credits failed, Average credits per semester [136]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) [149]",
+            "metrics": "Prior knowledge (Pre-test one-per-subskill), Post Knowledge (Post-test, one-per-subskill), Gain Knowledge (Post-test pre-test per subskill), Log file data (Process measures), Unique problems (Number of unique problems completed per subskill), Correct problem(s), Total Correct problem(s), Unique problem(s), Accuracy unique problems (Correct unique problems / total unique problems completed), Score, time stamp [149]"
+          },
+          {
+            "indicatorName": "Student success prediction (blended learning) [158]",
+            "metrics": "Timestamp, Add a post, Add user, Click bookmark, Click course tool heading, Click navigation bar, Click resume, Load video, Click next page, Page close, Pause video, Play video, Previous page, Reset problem, Save answer of a problem, Seek video, Course content clip(s), Server grade(s) submitted, Server problem checked, Click show answer of a problem, Speed change video, Submit problem, User enrollment, Video completed, Forum view(s) [158]"
+          },
+          {
+            "indicatorName": "Automated grading (mathematics) [167]",
+            "metrics": "Unique students, Question(s), Total student responses, Student responses, Unique problem(s), Grade(s) [167]"
+          },
+          {
+            "indicatorName": "Student-controlled social comparison [182]",
+            "metrics": "Total activity access, Number of sessions, Unique question(s) attempted, Unique person(s) attempted, Unique challenge(s) attempted, Unique animated example(s) viewed, Unique example(s) viewed, Number of social comparison events, Total comparison group changes, Change to a lower group, Change to an average group, Change to a higher group, Ranked list views, Timestamp [182]"
+          }
+        ]
+      },
+      {
+        "Name": "Exercise (Training)",
+        "indicator": [
+          {
+            "indicatorName": "Self-regulated learning (SRL) and Emotional state [36]",
+            "metrics": "Student attendance, Exercise activities, Classroom activities, Group work activities, Satisfaction questionnaire, Positive emotion (Enjoyment / Hope / Pride / Confidence / Excitement /Interest), Negative emotion (Anxiety / Anger / Shame / Hopelessness / Boredom / Frustration), Interviews [36]"          },
+          {
+            "indicatorName": "Learning progress and Student efficiency (LMS usage) [62]",
+            "metrics": "Number of completed videos, Number of available videos, Number of started videos, Total video length, Total time spent on videos, Number of attempted exercises, Number of available exercises, Time spent on exercise(s), Time spent on the platform, Number of recommended exercise attempts [62]"
+          },
+          {
+            "indicatorName": "Social network analysis (SNL) and Discussion forum analysis and Discourse analysis [88]",
+            "metrics": "Lecture(s) discussion thread(s), Exercise(s) discussion thread(s), Quizzes discussion threads, Total users, Total anonymous users, Total user posts, Total anonymous posts, Total replies [88]"
+          },
+          {
+            "indicatorName": "Learning behavior pattern(s) [111]",
+            "metrics": "Number of correctly solved assessment exercises, Number of incorrectly solved assessment exercises, Number of correctly solved MCQs, Number of incorrectly solved MCQs, Number of solutions requested for an assessment item, Course Video views, Reading material page view(s), Dashboard view(s), Schedule objective page view(s), learning objective page view(s) [111]"
+          },
+          {
+            "indicatorName": "Academic performance and Learning strategies [129]",
+            "metrics": "Videos with MCQs, Reading material(s) with MCQs, Problem-solving exercise(s), Correct exercise(s), Incorrect exercise(s), Correct MCQs, Incorrect MCQs, Solution requested for MCQs, Play the course video, Pause the course video, End the course video, Reading material(s) visit(s), Index page visit(s), Project information page visit(s), Dashboard visit(s), Search for a keyword, Documents downloads, Files downloads [129]"
+          },
+          {
+            "indicatorName": "Cognitive load and Self-efficacy (with academic performance and trace data) [133]",
+            "metrics": "Student engagement with the pre-class course activities, Reading material(s), Number of videos, Number of quizzes, Number of MCQs, Number of exercises, Number of questions, Number of correct answers, Number of incorrect answers, Request solution(s), Number of clicks, Number of views, Timestamp, Number of evaluations per student, Number of evaluations per activity, final exam score [133]"
+          },
+          {
+            "indicatorName": "Academic success and Course recommendation [67]",
+            "metrics": "Prior record(s), High school record(s), ACT math score, SAT math score, AP calculus exam score, Enrolled course(s), Number of credits, Semester GPA [67]"
+          },
+          {
+            "indicatorName": "Students choices prediction [161]",
+            "metrics": "Number of students, Student age,Younger Student group(s), Older student group(s), Exercise(s), Total Questions, Number of questions, Answer(s), Correct answer(s), Incorrect answer(s), Total answers, Correct, Incorrect, Session(s), Session time, Time taken answering, Number of topics, Number of sections [161]"
+          },
+          {
+            "indicatorName": "Procrastination [178]",
+            "metrics": "Number of students, Students groups, Course content, Exercises course content, Quizzes course content, Students final grades, Pre-test score(s), Pre-test completion rate, Email intervention [178]"
+          },
+          {
+            "indicatorName": "Learning path recommendation and students activities [183]",
+            "metrics": "Total slides, Exercises for lab session(s), Quizzes, Final exam, Student ID, Timestamp of the interaction, Type of access, Type of view, Type of submit, Resource ID, Score for quizzes, Score for quizzes exam, Number of students, Number of resources, Number of learning records, Median number of students learning records, Average number of learning records [183]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ea009d404b09a3303f7c819"
+    },
+    "LearningEvents": "Practice",
+    "LearningActivities": [
+      {
+        "Name": "Exam",
+        "indicator": [
+          {
+            "indicatorName": "Success prediction [56]",
+            "metrics": "Student record information, Assignment scores, Exam score(s), In-class performance score(s), Standardized test score(s), Planned study hour(s), Desired grade habit(s), Desired Study habit(s), Student comparison(s) [56]"
+          },
+          {
+            "indicatorName": "At-Risk students and Exam success prediction [71]",
+            "metrics": "Gender, Age, English speaking background, Course repetition(s), Being enrolled full-time, Exams history, average grade, GPA, Overall grade(s), LMS login timing(s), Prerequisite courses failing history, Academic progress [71]"
+          },
+          {
+            "indicatorName": "Exam grade(s) prediction [78]",
+            "metrics": "Login frequency, Login time, Resource activities, Resource usage data, Resource usage time, Learning regularity (by taking the mean and standard deviation of the intervals between login times) [78]"
+          },
+          {
+            "indicatorName": "Early Warning and Dropout Prediction [79]",
+            "metrics": "Course information, Lecture resource(s), Assignment resource(s), Exam preparation resource(s), Other learning resource(s) [79]"
+          },
+          {
+            "indicatorName": "Student progress and Student alert [87]",
+            "metrics": "Student name, Student age, Student gender, Self-report survey, Self-report questionnaires, Student performance on the assessment, Course grade(s), Final exam [87]"
+          },
+          {
+            "indicatorName": "Procrastination and Performance [102]",
+            "metrics": "Class start date, Course materials access, Resource access, Materials access delay, Materials purchase delay, Number of purchases, Number of accesses, Access period, Number of students, Percent of students accessing materials since the start of the semester, Students accessing materials, Assignment score(s), Quiz score(s), Final score(s), Average score(s) [102]"
+          },
+          {
+            "indicatorName": "Performance prediction [117]",
+            "metrics": "Midterm Exam Score, Final Exam Score, Time of regular study video watching, Viewing time, Number of sessions, Number of messages, Number of late submissions, Proof of reading the course instruction(s) [117]"
+          },
+          {
+            "indicatorName": "Cognitive load and Self-efficacy (with academic performance and trace data) [133]",
+            "metrics": "Student engagement with the pre-class course activities, Reading material(s), Number of videos, Number of quizzes, Number of MCQs, Number of exercises, Number of questions, Number of correct answers, Number of incorrect answers, Request solution(s), Number of clicks, Number of views, Timestamp, Number of evaluations per student, Number of evaluations per activity, final exam score [133]"
+          },
+          {
+            "indicatorName": "Predict performance [54]",
+            "metrics": "High school score(GPA), Residency, Age, Credits attempted, Percent of points (earned in course), Percent of points earned in previous course, Previous course, Previous course score [54]"
+          },
+          {
+            "indicatorName": "At-Risk Student(s) [122]",
+            "metrics": "Gender, Age, GPA, Grade(s), Number of sessions opened, Number of content viewed, Number of discussions read, Number of discussions posted, Number of assignments committed, Number of assessments submitted, Number of course sessions compared to course average, Number of content Resources viewed compared to course average, Full-time enrollment, part-time enrollment [122]"
+          },
+          {
+            "indicatorName": "Academic success and Course recommendation [67]",
+            "metrics": "Prior record(s), High school record(s), ACT math score, SAT math score, AP calculus exam score, Enrolled course(s), Number of credits, Semester GPA [67]"
+          },
+          {
+            "indicatorName": "Activity recommendation and Resource recommendation [112]",
+            "metrics": "Resource rating, Current student competence, Former student(s) competence [112]"
+          },
+          {
+            "indicatorName": "Passing probability [33]",
+            "metrics": "Score in practical activities, Score in theoretical activities, Similarity to peers wrt LMS usage [33]"
+          },
+          {
+            "indicatorName": "Dropout prediction and At-risk student and Early warning [82]",
+            "metrics": "Gender, Age, Yearly absence, Tardiness rate, Number of suspension incidents, Number of unexpected entries, Number of withdrawals, Whether a student is new to the school district, Quarter marking period average, Math proficiency level, Whether a student was retained in a grade, Whether a student graduated from high school on time [82]"
+          },
+          {
+            "indicatorName": "Early warning prediction and Retention and Prediction [97]",
+            "metrics": "Gender, Age, Grade distribution, Internal Study mode, External Study mode, Type of course, Level of workload, Prior study, Residential statu(s) [97]"
+          },
+          {
+            "indicatorName": "Measure success and successful student and Social network analysis (SNA) [93]",
+            "metrics": "Gender, Age, Student achievements, Student group, Instructor group, Student(s) mutual ties, Rating(s), Existence of simmelian ties, Simmelian tie(s), Social MOOC connection(s), Number of connection(s), Degree centrality, Closeness centrality, Betweenness centrality [93]"
+          },
+          {
+            "indicatorName": "Early alert prediction and Student retention [140]",
+            "metrics": "Student age, Student gender, Students academic load, Number of students, Number of total enrollments, Academic data current course, Academic data semester outcome [140]"
+          },
+          {
+            "indicatorName": "Predict dropout(s) [136]",
+            "metrics": "Student age, Gender, Number of courses, Number of approved courses, Number of failed courses, Number of failed courses per semester, Maximal number of repetitions, Grades mean per semester, Grades mean overall, Difference between grade mean of the semester, Difference between grade mean of the semester overall, Number of courses enrolled last semester, Number of credits attempted, Number of credits failed, Average credits per semester [136]"
+          },
+          {
+            "indicatorName": "Learning strategies (trace data) [174]",
+            "metrics": "Answer the discussion, Undo vote for an answer in the discussion, Vote for an answer in the discussion, Follow discussion question, Unfollow discussion question, Vote discussion question, Exam question(s), Exam begin, Exam complete, Exam correct, Exam incorrect, Quiz question(s), Quiz begin, Quiz complete, Quiz correct, Quiz incorrect, Supplement start, Access the extra reading material(s), Supplement complete, Video begins, Video download, Video end, Video pause, Video play, Video playback rate, Video seek, Video subtitle change, Video subtitle download, Video volume change, Video wait to load, Page preload, Page view [174]"
+          }
+        ]
+      },
+      {
+        "Name": "Test",
+        "indicator": [
+          {
+            "indicatorName": "User knowledge level [51]",
+            "metrics": "Number of user interactions, Number of user interactions actions, Question(s), Questionnaire, Task solving, Test, Forum replies, Forum answer(s) [51]"
+          },
+          {
+            "indicatorName": "Course plan(ning) and Early warning [99]",
+            "metrics": "Test result(s), Class size, Number of Enrolled credit hours, Course access timing(s), Number of Student contacts with Teacher, Number of Student contacts with Advisor, Course earned point(s), Difference from course average, Course login(s) [99]"
+          },
+          {
+            "indicatorName": "Procrastination [107]",
+            "metrics": "Number of Clicks in mandatory resources, Number of Clicks in  Recommended resources, Number of Submitted assignments, Time spent until completed quizzes, Time until first click on a mandatory resource, Time until first click on a Recommended resource, Time until first submission of an assignment, Time until first attempt in the evaluation test, Student grade [107]"
+          },
+          {
+            "indicatorName": "Video engagement and Video analytics [138]",
+            "metrics": "Video(s) watched, In-video question(s), Correct answer(s), incorrect answer(s), Weekly quizzes, Weekly tests, Assignment(s), Number of students reads, Grade(s) [138]"
+          },
+          {
+            "indicatorName": "Self-assessment and Feedback [179]",
+            "metrics": "Number of students, Valid response(s), Explanation of the test what was measured, Advice on further preparation for courses, Advice on further preparation for study, Indication of chances of completing a course, Comparison of obtained score to scores of other test-takers, Successful students score, Comparison of obtained score to scores of successful students [179]"
+          }
+        ]
+      },
+      {
+        "Name": "Quiz",
+        "indicator": [
+          {
+            "indicatorName": "Feedback system (social comparison) [31]",
+            "metrics": "Quiz submission timeline, time watching video(s), time on the platform, number of videos accessed, number of forum visits, number of sessions per week, Number of questions attempted, percent of time spent on videos, percent of quizzes, mean session length between session(s), mean session time between session(s), average time on the platform per week, number of visited video lectures, number of forum contributions [31]"
+          },
+          {
+            "indicatorName": "Track performance and Track behavior and Learning strategies [46]",
+            "metrics": "Final grade, Course pass, Course fail, Video interaction(s), Number of quiz submissions, Number of posts, Duration of time in the course, Duration of total appearance, Response submission(s), Post exam quiz score, Learner intention(s), Prior education level [46]"
+          },
+          {
+            "indicatorName": "Course completion prediction and Successful course prediction [70]",
+            "metrics": "Total assignments, Number of submissions, Number of posts, Quiz grade(s), Assignment grade(s), Forum communication [70]"
+          },
+          {
+            "indicatorName": "Social network analysis (SNL) and Discussion forum analysis and Discourse analysis [88]",
+            "metrics": "Lecture(s) discussion thread(s), Exercise(s) discussion thread(s), Quizzes discussion threads, Total users, Total anonymous users, Total user posts, Total anonymous posts, Total replies [88]"
+          },
+          {
+            "indicatorName": "Procrastination and Performance [102]",
+            "metrics": "Class start date, Course materials access, Resource access, Materials access delay, Materials purchase delay, Number of purchases, Number of accesses, Access period, Number of students, Percent of students accessing materials since the start of the semester, Accessing material(s), Assignment score(s), Quiz score(s), Final score(s), Average score(s) [102]"
+          },
+          {
+            "indicatorName": "Success prediction [105]",
+            "metrics": "Assessment grade, Average grade, Number of online sessions, Total online time, Average time per session, Time until first activity, Number of courses, Number of resources views, Irregularity of study time, Irregularity of study interval, Largest period of inactivity, Number of clicks, Number of links, Number of content views, Number of discussion posts, Number of discussion views, Number of quizzes started, Number of attempts per quiz, Number of quizzes passed, Number of quiz views, Number of assignments submitted, Number of assignment views, Number of Wiki views [105]"
+          },
+          {
+            "indicatorName": "Procrastination [107]",
+            "metrics": "Number of Clicks in mandatory resources, Number of Clicks in  Recommended resources, Number of Submitted assignments, Time spent until completed quizzes, Time until first click on a mandatory resource, Time until first click on a Recommended resource, Time until first submission of an assignment, Time until first attempt in the evaluation test, Student grade [107]"
+          },
+          {
+            "indicatorName": "Final grade prediction [119]",
+            "metrics": "Number of forums, Number of posts, Number of views, Number of quiz attempts, Assignment submission deadline, Time of assignment submission before the deadline, Peer grading, Time of peer grading before the deadline [119]"
+          },
+          {
+            "indicatorName": "Student performance and Student comparison [126]",
+            "metrics": "Number of students, Number of visits, Average class visits, Average of active students, Highest visits, Quiz result(s), Number of discussion forums, Number of discussion forum views, Total discussion forum participations [126]"
+          },
+          {
+            "indicatorName": "Online change detection [137]",
+            "metrics": "Number of students, Average of quiz score, Standard deviation of quiz score, Number of clicks, Average clicks, Standard deviation of click(s), Time duration [137]"
+          },
+          {
+            "indicatorName": "Self-motivation and Self-regulation [139]",
+            "metrics": "Course grade(s), Number of videos, Number of videos watched, Frequently watched video(s), Number of Quizzes, Number of assignments, Number of files, Number of forums, Clickstream [139]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) [153]",
+            "metrics": "Number of students, Student click(s), Student view(s), Assignment(s), Test scores, Quizzes, Report(s), Average grade, Cumulative average grade, Cumulative final grade, Student groups (high mid-high mid-low and low performance groups), SRL survey constructs, Student motivation, Student planning, Student monitoring, Student regulation [153]"
+          },
+          {
+            "indicatorName": "Student performance prediction [154]",
+            "metrics": "User ID, Timestamp, Course, LMS module, Student(s) module action(s), Action info, URL, Student final course mark(s), Number of assessments, Number of assessments submitted, Number of reexamined assessment requirements, Number of reexamined assignment views, Number of quizzes, Number of quizzes attempts, Course view(s), Forum view(s), Number of forum posts, Number of forum posts updated, Forum subscribe(s), Student feedback view(s), Student quiz summary view(s) [154]"
+          },
+          {
+            "indicatorName": "Time management and Learning strategies and Learning tactic(s) [157]",
+            "metrics": "Student interaction(s) with the online course activities, Student(s) assessment(s) grade(s), Student(s) quizzes grades, Timestamp of each event, Assignment view(s), Quiz view(s), Resource views, Forum view(s), Assignment attempt(s), Quiz attempt(s), Resource attempts, Forum attempt(s), Assignment update, quiz update, resource update, forum update, Forum discussion post, Course view(s), Overall course score, Anonymous user ID(s), Course module ID(s), Description of the learning action [157]"
+          },
+          {
+            "indicatorName": "Student engagement and personalised feedback [170]",
+            "metrics": "Study program, Attendance, Gender, Age, Previous attainment, Number of quizzes, Quiz score, Student clicks, Final course grade(s), Group interview, Group interview with student(s) [170]"
+          },
+          {
+            "indicatorName": "Learning strategies (trace data) [174]",
+            "metrics": "Answer the discussion, Undo vote for an answer in the discussion, Vote for an answer in the discussion, Follow discussion question, Unfollow discussion question, Vote discussion question, Exam question(s), Exam begin, Exam complete, Exam correct, Exam incorrect, Quiz question(s), Quiz begin, Quiz complete, Quiz correct, Quiz incorrect, Supplement start, Access the extra reading material(s), Supplement complete, Video begins, Video download, Video end, Video pause, Video play, Video playback rate, Video seek, Video subtitle change, Video subtitle download, Video volume change, Video wait to load, Page preload, Page view [174]"
+          },
+          {
+            "indicatorName": "Writing analytics [176]",
+            "metrics": "Number of students, Writing assignment, Student(s) assignment final text, Number of revisions, Number of correct revisions, Number of incorrect revisions, Number of words, Time spent on quizzes, Time spent on assignment(s), Total time spent, Number of learning sessions, Student(s) language background [176]"
+          },
+          {
+            "indicatorName": "Procrastination [178]",
+            "metrics": "Number of students, Students groups, Course content, Exercises course content, Quizzes course content, Students final grades, Pre-test score(s), Pre-test completion rate, Email intervention [178]"
+          },
+          {
+            "indicatorName": "Learning path recommendation and students activities [183]",
+            "metrics": "Slide number, Exercises for lab sessions, Quizzes, Final exam, Student ID, Timestamp of the interaction, Type of access, Type of view, Type of submit, Resource ID, Score for quizzes, Score for quizzes exam, Number of students, Number of resources, Number of learning records, Median number of students learning records, Average number of learning records [183]"
+          }
+        ]
+      },
+      {
+        "Name": "Exercise (Training)",
+        "indicator": [
+          {
+            "indicatorName": "Self-regulated learning (SRL) and Emotional state [36]",
+            "metrics": "Student attendance, Exercise activities, Classroom activities, Group work activities, Satisfaction questionnaire, Positive emotion (Enjoyment / Hope / Pride / Confidence / Excitement /Interest), Negative emotion (Anxiety / Anger / Shame / Hopelessness / Boredom / Frustration), Interviews [36]"
+          },
+          {
+            "indicatorName": "Learning progress and Student efficiency (LMS usage) [62]",
+            "metrics": "Number of completed videos, Number of available videos, Number of started videos, Total video length, Total time spent on videos, Number of attempted exercises, Number of available exercises, Time spent on exercise(s), Time spent on a platform, Number of recommended exercise attempts [62]"
+          },
+          {
+            "indicatorName": "Social network analysis (SNL) and Discussion forum analysis and Discourse analysis [88]",
+            "metrics": "Lecture(s) discussion thread(s), Exercise(s) discussion thread(s), Quizzes discussion threads, Total users, Total anonymous users, Total user posts, Total anonymous posts, Total replies [88]"
+          },
+          {
+            "indicatorName": "Learning behavior pattern(s) [111]",
+            "metrics": "Number of correctly solved assessment exercises, Number of incorrectly solved assessment exercises, Number of correctly solved MCQs, Number of incorrectly solved MCQs, Number of solutions requested for an assessment item, Course Video views, Reading material page view(s), Dashboard view(s), Schedule objective page view(s), learning objective page view(s) [111]"
+          },
+          {
+            "indicatorName": "Academic performance and Learning strategies [129]",
+            "metrics": "Videos with MCQs, Reading material(s) with MCQs, Problem-solving exercise(s), Correct exercise(s), Incorrect exercise(s), Correct MCQs, Incorrect MCQs, Solution requested for MCQs, Play the course video, Pause the course video, End the course video, Reading material(s) visit(s), Index page visit(s), Project information page visit(s), Dashboard visit(s), Search for a keyword, Documents downloads, Files downloads [129]"
+          },
+          {
+            "indicatorName": "Cognitive load and Self-efficacy (with academic performance and trace data) [133]",
+            "metrics": "Student engagement with the pre-class course activities, Reading material(s), Number of videos, Number of quizzes, Number of MCQs, Number of exercises, Number of questions, Number of correct answers, Number of incorrect answers, Request solution(s), Number of clicks, Number of views, Timestamp, Number of evaluations per student, Number of evaluations per activity, final exam score [133]"
+          },
+          {
+            "indicatorName": "Academic success and Course recommendation [67]",
+            "metrics": "Prior record(s), High school record(s), ACT math score, SAT math score, AP calculus exam score, Enrolled course(s), Number of credits, Semester GPA [67]"
+          }
+        ]
+      },
+      {
+        "Name": "Task",
+        "indicator": [
+          {
+            "indicatorName": "Feedback [41]",
+            "metrics": "Student grade(s), Number of finished tasks, Number of logins, Number of course visits, learning activities (by clicks and views), Reading activities, Exam activities, Assignment activities [41]"
+          },
+          {
+            "indicatorName": "User knowledge level [51]",
+            "metrics": "Number of user interactions, Number of user interactions actions, Question(s), Questionnaire, Task solving, Test, Forum replies, Forum answer(s) [51]"
+          },
+          {
+            "indicatorName": "Clustering (educational data mining) [66]",
+            "metrics": "Course title, Device IP address, Time and date, Time spent on theoretical content(s), Time spent on Practical task(s), Time spent on forum(s), Time student took to check the content, Time student took to access the task, Task submitted, Task submitted time (Time until task is submitted), Total words, Number of words written in forum posts, Total sentances, Number of sentences written in forum posts, Pass students, Fail students [66]"
+          },
+          {
+            "indicatorName": "Self-assessment(s) and Adaptive recommendation [125]",
+            "metrics": "Time spent online, Peer(s) feedback, Feedback for assignment(s), Rating learning material, Time to complete a task, Time to complete read a text, Comparison with fellow student(s) score, Considering the student(s) personal calendar for appropriate learning recommendation(s), Newsfeed with relevant news matching the learning content revision of former learning content, Reminder for deadline(s), Term scheduler [125]"
+          },
+          {
+            "indicatorName": "Eye fixation(s) and Eye tracking and Track eye movement (multimodal) [146]",
+            "metrics": "Number of students, Number of fixations, Fixation timestamp, Eye movement(s), Eye movements time, Question answering task, Number of tasks, Time spent, Eye movement coordinate(s), Screen capture video [146]"
+          },
+          {
+            "indicatorName": "Learner performance prediction [155]",
+            "metrics": "Learning session(s), Number of attempts they made at learning tasks, Number of questions answered, Number of questions attempted, Time taken to complete the task, Level of feedback provided on incorrect try, Learning task cumulative count, Time since last attempt [155]"
+          }
+        ]
+      },
+      {
+        "Name": "Writing",
+        "indicator": [
+          {
+            "indicatorName": "Writing engagement [48]",
+            "metrics": "Number of Interactions with the document, Resource usage [48]"
+          },
+          {
+            "indicatorName": "Writing analytics and Collaboration network [61]",
+            "metrics": "Document revision(s), Collaborative writing(s), Collaborative editing(s), Writing session(s), Writing Day(s), Text writing(s), Text editing(s) location, Text time, Student most edits, Student least edit(s), Number of authors worked on each paragraph,  Number of authors worked on each section, Number of group members [61]"
+          },
+          {
+            "indicatorName": "Affective state and Text analysis [85]",
+            "metrics": "Number of keystrokes per essay, Number of backspaces per essay, Total keystrokes, Longest time between keystrokes per essay, Shortest time between keystrokes per essay, Mean keystroke latency, Median keystroke latency, Initial pause before writing an essay, Number of pauses above 0.5 seconds, Number of pauses above 1 second, Number of pauses above 1.5 seconds, Number of pauses above 2 seconds, Number of pauses above 3 seconds [85]"
+          },
+          {
+            "indicatorName": "Writing analysis and Reflective writing [89]",
+            "metrics": "Formal rubrics, Informal rubrics, Words listed in rubrics, Text patterns [89]"
+          },
+          {
+            "indicatorName": "Assignment(s) quality and Epistemic network [42]",
+            "metrics": "Student essay keyword(s), All students essays keywords, Number of keywords, Assignment grade(s) [42]"
+          },
+          {
+            "indicatorName": "Writing analytics [176]",
+            "metrics": "Number of students, Writing assignment, Student(s) assignment final text, Number of revisions, Number of correct revisions, Number of incorrect revisions, Number of words, Time spent on quizzes, Time spent on assignment(s), Total time spent, Number of learning sessions, Student(s) language background [176]"
+          }
+        ]
+      },
+      {
+        "Name": "Group Work",
+        "indicator": [
+          {
+            "indicatorName": "Final grade prediction [28]",
+            "metrics": "Number of bookmarks in a group, Total bookmarks, Number of New blog posts in the group blog, Number of blog posts, Number of Topics that each user has uploaded on group discussion, Number of topics, Number of Uploads of new files on group files page, Number of comments on bookmarks uploaded by other group member(s), Number of comments on blog posts in the group blog, Number of comments on topics of group discussion, Number of comments on files uploaded by other group member(s), Number of comments on wire posts of other group members [28]"
+          },
+          {
+            "indicatorName": "Group participation [30]",
+            "metrics": "Number of Content read, Number of words produced, Number of comments, Student active in discussion(s), Student Passive in discussion(s), Activity timing, Content view(s), Web resource(s), Discussion(s) post(s) [30]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) and Emotional state [36]",
+            "metrics": "Student attendance, Exercise activities, Classroom activities, Group work activities, Satisfaction questionnaire, Positive emotion (Enjoyment / Hope / Pride / Confidence / Excitement /Interest), Negative emotion (Anxiety / Anger / Shame / Hopelessness / Boredom / Frustration), Interviews [36]"          },
+          {
+            "indicatorName": "Resource usage awareness and Self-regulated learning (SRL) [39]",
+            "metrics": "Application timestamp, User posts, Blog comment(s), Course tweet timestamp, Number of posts, Number of tweets, Total comments, Total visits, Group work discussion [39]"
+          },
+          {
+            "indicatorName": "Performance [50]",
+            "metrics": "Create idea (Mind map style), Create connection, Website annotation, Group discussion, Group participation, Degree of the centrality of discussion, Question in the discussion, Answer in the discussion, Challenge in the discussion, Number of Content creation, Number of Connection [50]"
+          },
+          {
+            "indicatorName": "Engagement and Performance [69]",
+            "metrics": "Student weekly participation(s), Student assignment participation(s), Student quizzes participation(s), Total student marks, Average student marks, Cumulative GPA in first three weeks, Student groups comparison, Student watched the video but did not participate, Students participated in the assessment, Grades in 60th percentile in first two weeks, Video views, Assignment submission(s), Watched video(s), Assessment participation [69]"
+          },
+          {
+            "indicatorName": "Student grade(s) prediction [115]",
+            "metrics": "Total number of groups, Total File uploads, Total downloads, Total edits, Total changes, Total comments, Total comments reads, Peer grading, Vote for accomplishment [115]"
+          },
+          {
+            "indicatorName": "Student comparison and Self-motivation and Predict grade [130]",
+            "metrics": "Total Number of clicks, Total Number of views, Number of content views, Number of content clicks, Total lectures, Total practicals, Total coursework clicks, Average time of content accesses, Total time of content accesses, Number of days per week, Average time between content accesses, Average group size of simultaneous content accesses, Number of clicks grouped by parent folder, Number of seen content, Number of unseen content, Number of total lecture views, Module grade(s), Attendance [130]"
+          },
+          {
+            "indicatorName": "Prediction (A pilot study) [144]",
+            "metrics": "Student age, sex, Pell grant eligibility, GPA, average MBA course final exam score, average peer review score, Student public message count, Student public Group message count, instant private message count, Chapter view count, Average assignment score, Final exam grade, Final Course grade, Message creator, Message timestamp, Message content, Forum message(s) [144]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) [153]",
+            "metrics": "Number of students, Student click(s), Student view(s), Assignment(s), Test scores, Quizzes, Report(s), Average grade, Cumulative average grade, Cumulative final grade, Student groups (high mid-high mid-low and low performance groups), SRL survey constructs, Student motivation, Student planning, Student monitoring, Student regulation [153]"
+          },
+          {
+            "indicatorName": "Collaborative engagement (multimodal - child interaction with robot) [166]",
+            "metrics": "Video recording(s), Total sessions, Voice frequency, Speech recognition, Kinesics, Eye contact, Gaze orientation (looking at the robot), Body orientation (facing peer or robot), Posture (leaning forward), Gestures, Gesture of ideas (representing a concept), Enactments of ideas (representing a concept), Facial expression(s), Robot generated question(s), Question response(s), Peer discussion (initiated - extended or elaborated), Robot discussion (initiated - extended or elaborated), Initiating a talk related to the current topic, robot Self-talk, robot mumbling, peer Self-talk, peer mumbling [166]"
+          }
+        ]
+      },
+      {
+        "Name": "Peer review/Assessment",
+        "indicator": [
+          {
+            "indicatorName": "Peer assessment ability and Peer-assessment [73]",
+            "metrics": "Peer grading, Peer rating, Number of peers, Grade(s), Mean of grade(s), Median of grade(s), Number of assignments, Number of reports [73]"
+          },
+          {
+            "indicatorName": "Student grade(s) prediction [115]",
+            "metrics": "Total number of groups, Total File uploads, Total downloads, Total edits, Total changes, Total comments, Total comments reads, Peer grading, Vote for accomplishment [115]"
+          },
+          {
+            "indicatorName": "Final grade prediction [119]",
+            "metrics": "Number of forums, Number of posts, Number of views, Number of quiz attempts, Assignment submission deadline, Time of assignment submission before the deadline, Peer grading, Time of peer grading before the deadline [119]"
+          },
+          {
+            "indicatorName": "Self-assessment(s) and Adaptive recommendation [125]",
+            "metrics": "Time spent online, Peer(s) feedback, Feedback for assignment(s), Rating learning material, Time to complete a task, Time to complete read a text, Comparison with fellow student(s) score, Considering the student(s) personal calendar for appropriate learning recommendation(s), Newsfeed with relevant news matching the learning content revision of former learning content, Reminder for deadline(s), Term scheduler [125]"
+          },
+          {
+            "indicatorName": "Prediction (A pilot study) [144]",
+            "metrics": "Student age, sex, Pell grant eligibility, GPA, average MBA course final exam score, average peer review score, Student public message count, Student public Group message count, instant private message count, Chapter view count, Average assignment score, Final exam grade, Final Course grade, Message creator, Message timestamp, Message content, Forum message(s) [144]"
+          },
+          {
+            "indicatorName": "Assessment readiness prediction [150]",
+            "metrics": "Number of lectures viewed, Number of lectures downloaded, Number of lectures reviewed, Number of lectures redownloaded, Number of forums viewed, Number of failed submissions on the same assessment, Number of passed submissions on the other assessments, Number of failed submissions on the other assessments, Number of students enrolled, Number of assessments, Number of students engaged in assessments, Number of students dropping-out after assessment failure, Number of assessment submissions, Number of failed assessment submissions, Number of students completed [150]"
+          },
+          {
+            "indicatorName": "Student performance prediction [154]",
+            "metrics": "User ID, Timestamp, Course, LMS module, Student(s) module action(s), Action info, URL, Student final course mark(s), Number of assessments, Number of assessments submitted, Number of reexamined assessment requirements, Number of reexamined assignment views, Number of quizzes, Number of quizzes attempts, Course view(s), Forum view(s), Number of forum posts, Number of forum posts updated, Forum subscribe(s), Student feedback view(s), Student quiz summary view(s) [154]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) [156]",
+            "metrics": "Correctly solving a summative assessment item, Incorrectly attempted summative assessment item, Correctly solved formative assessment item (MCQ), Incorrectly attempted formative assessment item (MCQ), Solution request for an MCQ, Course video load, Course video play, Course video pause, Course video end, Reading materials access, Dashboard access, Index page access, Project page access, Accessing the schedule objective page(s), Accessing the learning objective page(s) [156]"
+          },
+          {
+            "indicatorName": "Reflection(s) (automated assessment) [171]",
+            "metrics": "Total students, Reflective statement(s), Student submitted text, Total statements, Personal id, Post id, Prompt type, Date of posting [171]"
+          },
+          {
+            "indicatorName": "Self-assessment and Feedback [179]",
+            "metrics": "Number of students, Valid response(s), Explanation of the test what was measured, Advice on further preparation for courses, Advice on further preparation for study, Indication of chances of completing a course, Comparison of obtained score to scores of other test-takers, Successful students score, Comparison of obtained score to scores of successful students [179]"
+          }
+        ]
+      },
+      {
+        "Name": "Assignment/homework",
+        "indicator": [
+          {
+            "indicatorName": "Feedback [41]",
+            "metrics": "Student grade(s), Number of finished tasks, Number of logins, Number of course visits, learning activities (by clicks and views), Reading activities, Exam activities, Assignment activities [41]"
+          },
+          {
+            "indicatorName": "Engagement and Disengagement [44]",
+            "metrics": "average grade, average time spent on assignment(s) relative to class average, Percent of assignments submitted, percent of assignments submitted late, Percent of assignments on time, Percent of assignments not submitted, Day(s) since last submission, Submission time relative to due date [44]"
+          },
+          {
+            "indicatorName": "Success Prediction [56]",
+            "metrics": "Student record information, Assignment scores, Exam score(s), In-class performance score(s), Standardized test score(s), Planned study hour(s), Desired grade habit(s), Desired Study habit(s), Student comparison(s) [56]"
+          },
+          {
+            "indicatorName": "Engagement and Performance [69]",
+            "metrics": "Student weekly participation(s), Student assignment participation(s), Student quizzes participation(s), Total student marks, Average student marks, Cumulative GPA in first three weeks, Student groups comparison, Student watched the video but did not participate, Students participated in the assessment, Grades in 60th percentile in first two weeks, Video views, Assignment submission(s), Watched video(s), Assessment participation [69]"
+          },
+          {
+            "indicatorName": "Course completion prediction and Successful course prediction [70]",
+            "metrics": "Total assignments, Number of submissions, Number of posts, Quiz grade(s), Assignment grade(s), Forum communication [70]"
+          },
+          {
+            "indicatorName": "Predict success [96]",
+            "metrics": "Number of Assignment submissions, Switch between assignment(s) without submitting one, Total point(s) [96]"
+          },
+          {
+            "indicatorName": "Success prediction [105]",
+            "metrics": "Assessment grade, Average grade, Number of online sessions, Total online time, Average time per session, Time until first activity, Number of courses, Number of resources views, Irregularity of study time, Irregularity of study interval, Largest period of inactivity, Number of clicks, Number of links, Number of content views, Number of discussion posts, Number of discussion views, Number of quizzes started, Number of attempts per quiz, Number of quizzes passed, Number of quiz views, Number of assignments submitted, Number of assignment views, Number of Wiki views [105]"
+          },
+          {
+            "indicatorName": "Procrastination [107]",
+            "metrics": "Number of Clicks in mandatory resources, Number of Clicks in  Recommended resources, Number of Submitted assignments, Time spent until completed quizzes, Time until first click on a mandatory resource, Time until first click on a Recommended resource, Time until first submission of an assignment, Time until first attempt in the evaluation test, Student grade [107]"
+          },
+          {
+            "indicatorName": "Final grade prediction [119]",
+            "metrics": "Number of forums, Number of posts, Number of views, Number of quiz attempts, Assignment submission deadline, Time of assignment submission before the deadline, Peer grading, Time of peer grading before the deadline [119]"
+          },
+          {
+            "indicatorName": "At-risk student and Performance [131]",
+            "metrics": "Timestamps time, Logins time, Logouts time, Resource views, Resource clicks, Video views, Total assignment attempts, Total assignment submissions, Time watching course video(s), Average views, Most viewed video segments, Video pause(s), Weekly prompt score, Class participation score [131]"
+          },
+          {
+            "indicatorName": "Learning patterns [132]",
+            "metrics": "Number of videos watched, Number of students, Number of assignment submissions, Number of forum posts, Number of forum views, Number of forum participants, Number of videos, Number of video pauses, Number of video-watching days, Returns to most recently watched video, Returns after a long time, Returns to previously skipped, Overall grade, Student education background, Number of student replies with strong education background, Number of student replies with college-level education background [132]"
+          },
+          {
+            "indicatorName": "Self-motivation and Self-regulation [139]",
+            "metrics": "Course grade(s), Total videos, Total videos watched, Frequently watched video(s), Total Quizzes, Total assignments, Total files, Total forums, Clickstream [139]"
+          },
+          {
+            "indicatorName": "At-Risk Student(s) [122]",
+            "metrics": "Gender, Age, GPA, Grade(s), Number of sessions opened, Number of content viewed, Number of discussions read, Number of discussions posted, Number of assignments committed, Number of assessments submitted, Number of course sessions compared to course average, Number of content Resources viewed compared to course average, Full-time enrollment, part-time enrollment [122]"
+          },
+          {
+            "indicatorName": "Learning behavior and strategies and Performance [34]",
+            "metrics": "Number of submissions, Number of times help sought, Percent of command(s) executed successfully, Average time spent between two submissions [34]"
+          },
+          {
+            "indicatorName": "Assignment(s) quality and Epistemic network [42]",
+            "metrics": "Student essay keyword(s), All students essays keywords, Number of keywords, Assignment grade(s) [42]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) [153]",
+            "metrics": "Number of students, Student click(s), Student view(s), Assignment(s), Test scores, Quizzes, Report(s), Average grade, Cumulative average grade, Cumulative final grade, Student groups (high mid-high mid-low and low performance groups), SRL survey constructs, Student motivation, Student planning, Student monitoring, Student regulation [153]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) (by behavioral logs) [163]",
+            "metrics": "The average amount of time secs spent on assignment page(s) within Canvas, The average time hours between a participants first access of an assignment, The average time hours between a participants first access of its submission, The average length of time per web session within Canvas where an assignment is accessed, The average number of HTTP requests page views in session(s) in which an assignment is accessed within Canvas, The average time minutes between first access of an assignment, The average time minutes between first access of an its submission, Submission(s), The number of assignment submissions created, The total count of views of assignments occurring prior to the deadline of the assignment, The total count of views of assignments occurring after the deadline of an assignment, The total count of web sessions in which an assignment was accessed, The total number of calendar page views, The longest period in hours between sessions within Canvas, The average time minutes between the submission and deadline for assignment(s), Course enrollment(s), Questionnaire, Assignment submission, Assignment due date, Assignment submission method, Assignment grade [163]"
+          },
+          {
+            "indicatorName": "Writing analytics [176]",
+            "metrics": "Number of students, Writing assignment, Student(s) assignment final text, Number of revisions, Number of correct revisions, Number of incorrect revisions, Number of words, Time spent on quizzes, Time spent on assignment(s), Total time spent, Number of learning sessions, Student(s) language background [176]"
+          }
+        ]
+      },
+      {
+        "Name": "Question (Query/Inquiry)",
+        "indicator": [
+          {
+            "indicatorName": "Classifying student behavior [29]",
+            "metrics": "Number of answers, Number of questions asked, Number of videos watched, Time between videos watched [29]"
+          },
+          {
+            "indicatorName": "Feedback system (social comparison) [31]",
+            "metrics": "Quiz submission timeline, time watching video(s), time on the platform, number of videos accessed, number of forum visits, number of sessions per week, Number of questions attempted, percent of time spent on videos, percent of quizzes, mean session length between session(s), mean session time between session(s), average time on the platform per week, number of visited video lectures, number of forum contributions [31]"
+          },
+          {
+            "indicatorName": "Track performance and Track behavior and Learning strategies [46]",
+            "metrics": "Final grade, Course pass, Course fail, Video interactions, Number of quiz submissions, Number of posts, Duration of time in the course, Duration of total appearance, Response submission(s), Post exam quiz score, Learner intention(s), Prior education level [46]"
+          },
+          {
+            "indicatorName": "User knowledge level [51]",
+            "metrics": "Number of user interactions, Number of user interactions actions, Question(s), Questionnaire, Task solving, Test, Forum replies, Forum answer(s) [51]"
+          },
+          {
+            "indicatorName": "Online Discussion (forum) Behavior and Reflection [52]",
+            "metrics": "Reputation of the person posting a question, Reputation of the person posting an answer, Background of person, Posting history, Rating(s), Connection(s) [52]"
+          },
+          {
+            "indicatorName": "Course assessment(s) [55]",
+            "metrics": "Number of students, Number of Topics, Number of Tags, Student background, Course material(s), Student achievement(s), Student Grade(s), Resources used, MCQs, Question(s), Rating(s), Discussion(s) [55]"
+          },
+          {
+            "indicatorName": "Temporal analysis and Temporal statistical analysis [68]", 
+            "metrics": "Student activities, Answering computer-based test(s), Time spent on the question answered correctly, Question answered correctly, Time spent on the question answered incorrectly, Question answered incorrectly, Goal expectancy, Student preparedness [68]"
+          },
+          {
+            "indicatorName": "Engagement [86]",
+            "metrics": "Questions, Answers, Average error rate for an answer, Average error rate, Error rates comparison, Number of attempts, Response time, Number of learners, Learners feedback on question difficulty, Learners feedback, Percent of feedback [86]"
+          },
+          {
+            "indicatorName": "Feedback [91]",
+            "metrics": "Video clips interaction(s), Questions next to video clip(s), Resource access, Dashboard access [91]"
+          },
+          {
+            "indicatorName": "Performance prediction and Self-regulated learning (SRL) [98]",
+            "metrics": "LMS interactions, Number of clicks, Number of views, Interactions with video(s), Interactions with multiple choice question(s) next to the video(s), Interactions with questions in course note(s), Access to HTML resource(s), Expanding of a section, Collapsing of a section, Dashboard access [98]"
+          },
+          {
+            "indicatorName": "Performance prediction [100]",
+            "metrics": "Number of plays, Number of pauses, Number of events, Number of videos, Number of play pause events in the video for the week, Number of times a question next to a video clip was answered, Video questions, Number of times a question in the course notes was answered, Number of questions answered correctly, Number of questions answered incorrectly [100]"
+          },
+          {
+            "indicatorName": "Game-based learning and Game learning strategy and Game performance prediction [104]",
+            "metrics": "Number of game teams, Number of game team members, Game simulation interaction(s), Explore activity game mode(s), Challenge activity game mode(s), Number of game explores, Number of challenge game questions, Number of game questions, Number of remaining game questions, Correct game answer(s), Incorrect game answer(s), Time spent answering in game, Number of students, Number of students completed challenge questions in the game, Number of challenge attempts in a game, Number of correctly answered questions in game, Total game scores, Total game points [104]"
+          },
+          {
+            "indicatorName": "Cognitive load and Self-efficacy (with academic performance and trace data) [133]",
+            "metrics": "Student engagement with the pre-class course activities, Reading material(s), Number of videos, Number of quizzes, Number of MCQs, Number of exercises, Number of questions, Number of correct answers, Number of incorrect answers, Request solution(s), Number of clicks, Number of views, Timestamp, Number of evaluations per student, Number of evaluations per activity, final exam score [133]"
+          },
+          {
+            "indicatorName": "Video engagement and Video analytics [138]",
+            "metrics": "Video(s) watched, In-video question(s), Correct answer(s), incorrect answer(s), Weekly quizzes, Weekly tests, Assignment(s), Number of students reads, Grade(s) [138]"
+          },
+          {
+            "indicatorName": "Eye fixation(s) and Eye tracking and Eye movement (multimodal) [146]",
+            "metrics": "Number of students, Number of fixations, Fixation timestamp, Eye movement(s), Eye movements time, Question answering task, Number of tasks, Time spent, Eye movement coordinate(s), Screen capture video [146]"
+          },
+          {
+            "indicatorName": "Student(s) classification [92]",
+            "metrics": "Total time to answer correctly, Total time to answer incorrectly, Total idle time, Effort composite feature, Actual performance, Goal expectancy, Student(s) score, Number of changes to answer, Number of idle time student(s) spend(s) viewing task, Number of times student(s) view task [92]"
+          },
+          {
+            "indicatorName": "Learner performance prediction [155]",
+            "metrics": "Learning session(s), Number of attempts they made at learning tasks, Number of questions answered, Number of questions attempted, Time taken to complete the task, Level of feedback provided on incorrect try, Learning task cumulative count, Time since last attempt [155]"
+          },
+          {
+            "indicatorName": "Predict effortfulness and Effortful behavior (multimodal) [160]",
+            "metrics": "Multimodal data, Eye-tracking, record users gaze, Gaze tracking, Fixation(s) (the period of time where the eye is kept aligned with the target), Time of fixation(s), Saccades (the type of eye movement used to move the fovea rapidly from one point of interest), Eye movement, Electroencephalography (a test that detects abnormalities in your brain waves), Abnormal behaviour, Abnormal behavior, Face video(s), Wristband data, Heart rate, Heart rate mean, Mean heart rate for a given question, Electrodermal activity (EDA), Mean electrodermal activity for a given question, Body temperature, Skin temperature, Mean Temperature for a given question, Blood Volume Pulse (BVP), Mean Blood Volume Pulse for a given question, Attention (Average fixation duration), Average fixation duration, Emotion intensity (based on Facial action Units), Facial action(s), Cognitive load (Decreasing alpha and increasing theta band power), Theta band power, Mental workload (Alpha magnitude), Alpha magnitude, Load on memory (theta band power) [160]"
+          },
+          {
+            "indicatorName": "Student choice prediction [161]",
+            "metrics": "Number of students, Student age, Younger student groups, Older student group(s), Exercise(s), Total Questions, Number of questions, Answer(s), Correct answer(s), Incorrect answer(s), Total answers, Correct, Incorrect, Session(s), Session time, Time taken answering, Total topics, Total sections [161]"
+          },
+          {
+            "indicatorName": "Perceived difficulty and Text discrimination [164]",
+            "metrics": "Total students, Total interactions per student, Total questions, Total items, Total interactions per item, Timestamp of the interaction, Correctness per student, Correctness per item, Total documents, Total words occurrences per document, Total words, Total most frequent keywords, Timestamp(s) [164]"
+          },
+          {
+            "indicatorName": "Predict student performance (mouse movement) [165]",
+            "metrics": "Score record(s), Number of questions, Number of mouse movement trajectories, Trace mouse move, Trace mouse down, Trace mouse drag, Trace mouse up, Mouse movement Time length, Mouse movement Time percent, Mouse movement Event length, Mouse movement Event percent, Mouse movement first drag, Mouse movement drop, Mouse movement first-attempt event-end-index, Trace positions of the mouse during the whole problem-solving process, Number of students, Grade, Timestamp(s), Number of Total submissions, Number of 2nd submissions, Percent of submissions [165]"
+          },
+          {
+            "indicatorName": "Automated grading (mathematics) [167]",
+            "metrics": "Number of unique students, Question(s), Total students responses, Unique problem(s), Grade(s) [167]"
+          },
+          {
+            "indicatorName": "Learning strategies (trace data) [174]",
+            "metrics": "Answer the discussion, Undo vote for an answer in the discussion, Vote for an answer in the discussion, Follow discussion question, Unfollow discussion question, Vote discussion question, Exam question(s), Exam begin, Exam complete, Exam correct, Exam incorrect, Quiz question(s), Quiz begin, Quiz complete, Quiz correct, Quiz incorrect, Supplement start, Access the extra reading material(s), Supplement complete, Video begins, Video download, Video end, Video pause, Video play, Video playback rate, Video seek, Video subtitle change, Video subtitle download, Video volume change, Video wait to load, Page preload, Page view [174]"
+          },
+          {
+            "indicatorName": "Self-directed learning and student feedback [184]",
+            "metrics": "Student-logged data, All students interaction(s), Time spent on the various component(s) of the course, MCQs, Uploading resource(s), Attempting and reattempting the synopses, Answering the assessment question(s), Post-course student(s) response(s) [184]"
+          }
+        ]
+      },
+      {
+        "Name": "Survey (Questionnaire)",
+        "indicator": [
+          {
+            "indicatorName": "Self-regulated learning (SRL) and Emotional state [36]",
+            "metrics": "Student attendance, Exercise activities, Classroom activities, Group work activities, Satisfaction questionnaire, Positive emotion (Enjoyment / Hope / Pride / Confidence / Excitement /Interest), Negative emotion (Anxiety / Anger / Shame / Hopelessness / Boredom / Frustration), Interviews [36]"          },
+          {
+            "indicatorName": "User knowledge level [51]",
+            "metrics": "Number of user interactions, Number of user interactions actions, Question(s), Questionnaire, Task solving, Test, Forum replies, Forum answer(s) [51]"
+          },
+          {
+            "indicatorName": "Discourse analysis [80]",
+            "metrics": "Student age, Student gender, Subject, Student forum discussion(s), Collaboration, Questionnaire response opinion(s), Analyze text opinion, Analyze text elaboration, Analyze text evidence [80]"
+          },
+          {
+            "indicatorName": "Student progress and Student alert [87]",
+            "metrics": "Student name, Student age, Student gender, Self-report survey, Self-report questionnaires, Student performance on the assessment, Course grade(s), Final exam [87]"
+          },
+          {
+            "indicatorName": "Online discussion (forum) behavior and Reflection(s) [52]",
+            "metrics": "Reputation of the person posting a question, Reputation of the person posting an answer, Background of person, Posting history, Rating(s), Connection(s) [52]"
+          },
+          {
+            "indicatorName": "Thermal video analytics (multimodel) [162]",
+            "metrics": "Number of students, Student age, Students background, Video lecture(s), Lecture topic(s), Text-based data, Animated-based slide(s), Animated-based annotated image(s), Questionnaire, Faisal expression(s), Facial temperature, Average change in forehead temperature, Mean change in forehead temperature, Average change in nose temperature, Mean change in nose temperature, Timestamp(s), Eye movement(s) [162]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) (by behavioral logs) [163]",
+            "metrics": "The average amount of time secs spent on assignment page(s) within Canvas, The average time hours between a participants first access of an assignment, The average time hours between a participants first access of its submission, The average length of time per web session within Canvas where an assignment is accessed, The average number of HTTP requests page views in session(s) in which an assignment is accessed within Canvas, The average time minutes between first access of an assignment, The average time minutes between first access of an its submission, Submission(s), The number of assignment submissions created, The total count of views of assignments occurring prior to the deadline of the assignment, The total count of views of assignments occurring after the deadline of an assignment, The total count of web sessions in which an assignment was accessed, The total number of calendar page views, The longest period in hours between sessions within Canvas, The average time minutes between the submission and deadline for assignment(s), Course enrollment(s), Questionnaire, Assignment submission, Assignment due date, Assignment submission method, Assignment grade [163]"
+          },
+          {
+            "indicatorName": "Self-directed learning and student feedback [184]",
+            "metrics": "Student-logged data, All students interaction(s), Time spent on the various component(s) of the course, MCQs, Uploading resource(s), Attempting and reattempting the synopses, Answering the assessment question(s), Post-course student(s) response(s) [184]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ea01cff04b09a3303f7ce47"
+    },
+    "LearningEvents": "Meta-learn or Self-reflect",
+    "LearningActivities": [
+      {
+        "Name": "Feedback",
+        "indicator": [
+          {
+            "indicatorName": "Presentation skill(s) (multimodal) [35]",
+            "metrics": "Video Sensor Data, Body movement, Number of hand gestures, Total gestures, Audio sensor data, Voice speed, Voice level, Number of pauses [35]"
+          },
+          {
+            "indicatorName": "Presentation skill(s) (multimodal) [40]",
+            "metrics": "Gaze tracking, Gaze tracking using a camera, Body posture, Body posture using a camera, Number of pauses, Pauses using an audio sensor, Volume using an audio sensor, Number of movements, Number of gestures [40]"
+          },
+          {
+            "indicatorName": "Feedback [41]",
+            "metrics": "Student grade(s), Total finished tasks, Total logins, Total course visits, learning activity (by clicks and views), Reading activity, Exam activity, Assignment activity [41]"
+          },
+          {
+            "indicatorName": "Affective state [84]",
+            "metrics": "Feedback view(s), Feedback followed [84]"
+          },
+          {
+            "indicatorName": "Feedback [91]",
+            "metrics": "Video clips interaction(s), Questions next to video clip(s), Resource access, Dashboard access [91]"
+          },
+          {
+            "indicatorName": "Academic performance and Learning strategies [129]",
+            "metrics": "Video with questions, Reading materials with questions, Problem-solving exercise(s), Correct exercise(s), Incorrect exercise(s), Correct questions, Incorrect questions, Solution requested, Play the video, Pause the video, End the video, Reading materials visit(s), Page visits, Information page visit(s), Dashboard visit(s), Keyword search(es), Document download(s), File download(s) [129]"
+          },
+          {
+            "indicatorName": "Learner performance prediction [155]",
+            "metrics": "Learning session(s), Number of attempts they made at learning tasks, Number of questions answered, Number of questions attempted, Time taken to complete the task, Level of feedback provided on incorrect try, Learning task cumulative count, Time since last attempt [155]"
+          }
+        ]
+      },
+      {
+        "Name": "Rating/ranking",
+        "indicator": [
+          {
+            "indicatorName": "Course assessment(s) [55]",
+            "metrics": "Number of students, Number of Topics, Number of Tags, Student background, Course material(s), Student achievement(s), Student Grade(s), Resources used, MCQs, Question(s), Rating(s), Discussion(s) [55]"
+          },
+          {
+            "indicatorName": "Performance rating monitor [128]",
+            "metrics": "Marker count, Memo count, Time spent, Reading completion, Sequence, Marker content, Memo content, Engagement score, Engagement rating, Active reading rating, Performance rating, Attendance rating, Student rating, Teacher rating, Assessment score(s) [128]"
+          },
+          {
+            "indicatorName": "Self-assessment(s) and Adaptive recommendation [125]",
+            "metrics": "Time spent online, Peer(s) feedback, Feedback for assignment(s), Rating learning material, Time to complete a task, Time to complete read a text, Comparison with fellow student(s) score, Considering the student(s) personal calendar for appropriate learning recommendation(s), Newsfeed with relevant news matching the learning content revision of former learning content, Reminder for deadline(s), Term scheduler [125]"
+          },
+          {
+            "indicatorName": "Peer assessment ability [73]",
+            "metrics": "Peer grading, Peer rating, Number of peers, Grade(s), Mean of grade(s), Median of grade(s), Number of assignments, Number of reports [73]"
+          },
+          {
+            "indicatorName": "Online discussion (forum) behavior and Reflection [52]",
+            "metrics": "Reputation of the person posting a question, Reputation of the person posting an answer, Background of person, Posting history, Rating(s), Connection(s) [52]"
+          },
+          {
+            "indicatorName": "Recommend activity and Recommend resource(s) [112]",
+            "metrics": "Resource rating, Current student competence, Former student(s) competence [112]"
+          },
+          {
+            "indicatorName": "Measure success and successful student and Social network analysis (SNA) [93]",
+            "metrics": "Gender, Age, Student achievements, Student groups, Instructor group, Student mutual ties, Rating(s), Existence of simmelian ties, Simmelian tie(s), Social MOOC connection(s), Total connection(s), Degree centrality, Closeness centrality, Betweenness centrality [93]"
+          },
+          {
+            "indicatorName": "Course recommendation [168]",
+            "metrics": "Length of the number of unique words, Non-zero value if the word in the vocabulary, Term weight, Term frequency, Course rating, Course rank, Number of courses, Course number, Course title, Course catalog description [168]"
+          },
+          {
+            "indicatorName": "Student-controlled social comparison [182]",
+            "metrics": "Total activity access, Number of sessions, Unique question(s) attempted, Unique person(s) attempted, Unique challenge(s) attempted, Unique animated example(s) viewed, Unique example(s) viewed, Number of social comparison events, Total comparison group changes, Change to a lower group, Change to an average group, Change to a higher group, Ranked list views, Timestamp [182]"
+          }
+        ]
+      },
+      {
+        "Name": "Self-learning / reporting",
+        "indicator": [
+          {
+            "indicatorName": "Student self-reporting and Self-report and Affective state and Emotion [32]",
+            "metrics": "student information, Resources used (e.g. forums-blogs or files), Forum blog(s), Number of resource usage, Class time, Class average time, Compare students, Student content creation [32]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) and Emotional state [36]",
+            "metrics": "Student attendance, Exercise activities, Classroom activities, Group work activities, Satisfaction questionnaire, Positive emotion (Enjoyment / Hope / Pride / Confidence / Excitement /Interest), Negative emotion (Anxiety / Anger / Shame / Hopelessness / Boredom / Frustration), Interviews [36]"          },
+          {
+            "indicatorName": "Student progress and Student alert [87]",
+            "metrics": "Student name, Student age, Student gender, Self-report survey, Self-report questionnaires, Student performance on the assessment, Course grade(s), Final exam [87]"
+          },
+          {
+            "indicatorName": "Learning strategies [118]",
+            "metrics": "formative assessment done correctly, formative assessment done incorrectly, requesting the solution for a formative assessment item, watching a course video, reading course content [118]"
+          },
+          {
+            "indicatorName": "Time management and Procrastination and Performance prediction [123]",
+            "metrics": "Peak on day hour, Weekday peak, Weeks similarity measure, Periodicity of day hour, Periodicity of week hour, Periodicity of weekday, Delay in lecture view [123]"
+          },
+          {
+            "indicatorName": "Learning behavior and strategies and Performance [34]",
+            "metrics": "Number of submissions, Number of times help sought, Percent of command(s) executed successfully, Average time spent between two submissions [34]"
+          },
+          {
+            "indicatorName": "Student(s) consistency level [151]",
+            "metrics": "Student id, Course id, learning action, Learning type, Type of device (User-agent - used for extracting the type of device used for the action), Device type, Action URL, Session number, Start time, End time [151]"
+          }
+        ]
+      },
+      {
+        "Name": "Analysis",
+        "indicator": [
+          {
+            "indicatorName": "Discourse analysis [80]",
+            "metrics": "Student age, Student gender, Subject, Student forum discussion(s), Collaboration, Questionnaire response opinion(s), Analyze text opinion, Analyze text elaboration, Analyze text evidence [80]"
+          },
+          {
+            "indicatorName": "Assignment(s) quality and Epistemic network [42]",
+            "metrics": "Student essay keyword(s), All students essays keywords, Number of keywords, Assignment grade(s) [42]"
+          }
+        ]
+      },
+      {
+        "Name": "Peer review/Assessment",
+        "indicator": [
+          {
+            "indicatorName": "Peer assessment ability and Peer-assessment [73]",
+            "metrics": "Peer grading, Peer rating, Number of peers, Grade(s), Mean of grade(s), Median of grade(s), Number of assignments, Number of reports [73]"
+          },
+          {
+            "indicatorName": "Student grade(s) prediction [115]",
+            "metrics": "Total number of groups, Total File uploads, Total downloads, Total edits, Total changes, Total comments, Total comments reads, Peer grading, Vote for accomplishment [115]"
+          },
+          {
+            "indicatorName": "Final grade prediction [119]",
+            "metrics": "Number of forums, Number of posts, Number of views, Number of quiz attempts, Assignment submission deadline, Time of assignment submission before the deadline, Peer grading, Time of peer grading before the deadline [119]"
+          },
+          {
+            "indicatorName": "Self-assessment(s) and Adaptive recommendation [125]",
+            "metrics": "Time spent online, Peer(s) feedback, Feedback for assignment(s), Rating learning material, Time to complete a task, Time to complete read a text, Comparison with fellow student(s) score, Considering the student(s) personal calendar for appropriate learning recommendation(s), Newsfeed with relevant news matching the learning content revision of former learning content, Reminder for deadline(s), Term scheduler [125]"
+          },
+          {
+            "indicatorName": "Prediction (A pilot study) [144]",
+            "metrics": "Student age, sex, Pell grant eligibility, GPA, average MBA course final exam score, average peer review score, Student public message count, Student public Group message count, instant private message count, Chapter view count, Average assignment score, Final exam grade, Final Course grade, Message creator, Message timestamp, Message content, Forum message(s) [144]"
+          },
+          {
+            "indicatorName": "Assessment readiness prediction [150]",
+            "metrics": "Number of lectures viewed, Number of lectures downloaded, Number of lectures reviewed, Number of lectures redownloaded, Number of forums viewed, Number of failed submissions on the same assessment, Number of passed submissions on the other assessments, Number of failed submissions on the other assessments, Number of students enrolled, Number of assessments, Number of students engaged in assessments, Number of students dropping-out after assessment failure, Number of assessment submissions, Number of failed assessment submissions, Number of students completed [150]"
+          },
+          {
+            "indicatorName": "Student performance prediction [154]",
+            "metrics": "User ID, Timestamp, Course, LMS module, Student(s) module action(s), Action info, URL, Student final course mark(s), Number of assessments, Number of assessments submitted, Number of reexamined assessment requirements, Number of reexamined assignment views, Number of quizzes, Number of quizzes attempts, Course view(s), Forum view(s), Number of forum posts, Number of forum posts updated, Forum subscribe(s), Student feedback view(s), Student quiz summary view(s) [154]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) [156]",
+            "metrics": "Correctly solving a summative assessment item, Incorrectly attempted summative assessment item, Correctly solved formative assessment item (MCQ), Incorrectly attempted formative assessment item (MCQ), Solution request for an MCQ, Course video load, Course video play, Course video pause, Course video end, Reading materials access, Dashboard access, Index page access, Project page access, Accessing the schedule objective page(s), Accessing the learning objective page(s) [156]"
+          },
+          {
+            "indicatorName": "Reflection(s) (automated assessment) [171]",
+            "metrics": "Total students, Reflective statement(s), Student submitted text, Total statements, Personal id, Post id, Prompt type, Date of posting [171]"
+          },
+          {
+            "indicatorName": "Self-assessment and Feedback [179]",
+            "metrics": "Number of students, Valid response(s), Explanation of the test what was measured, Advice on further preparation for courses, Advice on further preparation for study, Indication of chances of completing a course, Comparison of obtained score to scores of other test-takers, Successful students score, Comparison of obtained score to scores of successful students [179]"
+          }
+        ]
+      },
+      {
+        "Name": "Review/Study",
+        "indicator": [
+          {
+            "indicatorName": "Discussion engagement(s) [49]",
+            "metrics": "Posts reads, Number of posts, Number of comments, Number of days student logged into a discussion, Number of times student logged into a discussion, Average session time, Average post length, Percent of sessions with posts, Number of reviews of own posts,  Number of reviews of other posts [49]"
+          },
+          {
+            "indicatorName": "Recommendation and Software recommendation and Tool(s) recommendation [141]",
+            "metrics": "Average time spent on a document, Maximum time spent on a document, Minimum time spent on a document, Average time of the day student(s) work, Total time spent on the course, Amount of time spent during a different point in time of the day, number of documents, Number of the student, Average number of documents used, Maximum number of documents used, Minimum number of documents used [141]"
+          },
+          {
+            "indicatorName": "Self-monitoring and Awareness and Learning pattern(s) [53]",
+            "metrics": "Number of resources used, Resource usage time, Minimum number of resources used, Maximum number of resources used, Average number of resources used, Minimum time spent, Maximum time spent, Average time spent [53]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ea0173004b09a3303f7cc65"
+    },
+    "LearningEvents": "Debate",
+    "LearningActivities": [
+      {
+        "Name": "Forum discussion",
+        "indicator": [
+          {
+            "indicatorName": "Reading analytics and Discussion contribution quantity and Discussion contribution quality [24]",
+            "metrics": "Number of comments, Number of likes, Number of replies, Average replies, Network discussion(s), Network connection(s) [24]"
+          },
+          {
+            "indicatorName": "Discussion forum quality [27]",
+            "metrics": "Average Number of messages posted, Number of comments compared to the average class contributor(s), Number of comments compared to the top class contributor(s), Number of posted messages per forum, Number of visualization views per forum, Visualization views, Forum message(s) [27]"
+          },
+          {
+            "indicatorName": "Performance prediction and Success prediction [37]",
+            "metrics": "Cumulative course points, Cumulative course points per week, Prior credits earned, Discussion post count, Ratio of credits earned,  Ratio of credits attempted, Attendance, Days into the course of first activity, Course activities, Orientation participation, Inactive time since last course, Total messages, Instructor messages, Total messages to instructor [37]"
+          },
+          {
+            "indicatorName": "Resource usage awareness and Self-regulated learning (SRL) [39]",
+            "metrics": "Application timestamp, User posts, Blog comment(s), Course tweet timestamp, Number of posts, Number of tweets, Total comments, Total visits, Group work discussion [39]"
+          },
+          {
+            "indicatorName": "Discussion engagement(s) [49]",
+            "metrics": "Posts reads, Number of posts, Number of comments, Number of days student logged into a discussion, Number of times student logged into a discussion, Average session time, Average post length, Percent of sessions with posts, Number of reviews of own posts,  Number of reviews of other posts [49]"
+          },
+          {
+            "indicatorName": "Performance [50]",
+            "metrics": "Create idea (Mind map style), Create connection, Website annotation, Group discussion, Group participation, Degree of the centrality of discussion, Question in the discussion, Answer in the discussion, Challenge in the discussion, Number of Content creation, Number of Connection [50]"
+          },
+          {
+            "indicatorName": "Discourse analysis [80]",
+            "metrics": "Student age, Student gender, Subject, Student forum discussion(s), Collaboration, Questionnaire response opinion(s), Analyze text opinion, Analyze text elaboration, Analyze text evidence [80]"
+          },
+          {
+            "indicatorName": "Social network analysis (SNL) and Discussion forum analysis and Discourse analysis [88]",
+            "metrics": "Lecture(s) discussion thread(s), Exercise(s) discussion thread(s), Quizzes discussion threads, Total users, Total anonymous users, Total user posts, Total anonymous posts, Total replies [88]"
+          },
+          {
+            "indicatorName": "Discourse analytics [95]",
+            "metrics": "Forum discussion, Forum activities, Forum post(s), Forum replies, Forum question(s) [95]"
+          },
+          {
+            "indicatorName": "Productivity and Collaboration [124]",
+            "metrics": "Number of discussion posts, Number of blog posts, Number of files, Number of pages, Number of discussion comments, Number of blog comments, Number of comments in a file(s), Number of comments in page(s), Number of views, Number of contacts made, Final grade(s), Average score, Course, Average number of actions, Average number of connections [124]"
+          },
+          {
+            "indicatorName": "Student performance and Student comparison [126]",
+            "metrics": "Number of students, Number of visits, Average class visits, Average of active students, Highest visits, Quiz result(s), Number of discussion forums, Number of discussion forum views, Discussion forum participation [126]"
+          },
+          {
+            "indicatorName": "Predictive analytics (proposal) [143]",
+            "metrics": "Student schedule(s), Student demographic(s), Number of students, Number of courses, Student contact data, Assignment grade(s), Course grade(s), Discussion forum activities, Content usage tracking [143]"
+          },
+          {
+            "indicatorName": "Performance prediction [108]",
+            "metrics": "Number of edges (Measure relationship), Edge weight, (Measure) Network structure, (Measure) Network position, Number of sent messages, Sent messages, Number of received messages, Received messages, Measure of engagement (number of sent messages compared to the number of received messages), Number of connections [108]"
+          },
+          {
+            "indicatorName": "At-Risk Student(s) [122]",
+            "metrics": "Gender, Age, GPA, Grade(s), Number of sessions opened, Number of content viewed, Number of discussions read, Number of discussions posted, Number of assignments committed, Number of assessments submitted, Number of course sessions compared to course average, Number of content Resources viewed compared to course average, Full-time enrollment, part-time enrollment [122]"
+          },
+          {
+            "indicatorName": "Predict assessment readiness [150]",
+            "metrics": "Number of lectures viewed, Number of lectures downloaded, Number of lectures reviewed, Number of lectures redownloaded, Number of forums viewed, Number of failed submissions on the same assessment, Number of passed submissions on the other assessments, Number of failed submissions on the other assessments, Number of students enrolled, Number of assessments, Number of students engaged in assessments, Number of students dropping-out after assessment failure, Number of assessment submissions, Number of failed assessment submissions, Number of students completed [150]"
+          },
+          {
+            "indicatorName": "Time management and Learning strategies and Learning tactic(s) [157]",
+            "metrics": "Student interaction(s) with the online course activities, Student(s) assessment(s) grade(s), Student(s) quizzes grades, Timestamp of each event, Assignment view(s), Quiz view(s), Resource views, Forum view(s), Assignment attempt(s), Quiz attempt(s), Resource attempts, Forum attempt(s), Assignment update, quiz update, resource update, forum update, Forum discussion post, Course view(s), Overall course score, Anonymous user ID(s), Course module ID(s), Description of the learning action [157]"
+          },
+          {
+            "indicatorName": "Epistemic network analysis and Online discussion analysis [159]",
+            "metrics": "Course grade, Number of messages, Word count, Word frequency, Number of threads, Number of apostrophes, Number of exclamation marks, Number of negative emotions, Number of negations, First person plural, First person singular, Second person, Number of question marks, Number of assents, Auxiliary verb(s), Number of periods, Number of punctuation, Number of senses of a word, Incidence score of pronoun(s), Dictionary word(s), Mean number of letters in the word(s) within the text, Proportion of intersection tree node(s) between all sentences, Total function words, Number of affiliations, Social processes, Number of clout-related words [159]"
+          },
+          {
+            "indicatorName": "Collaborative engagement (multimodal - child interaction with robot) [166]",
+            "metrics": "Video recording(s), Total sessions, Voice frequency, Speech recognition, Kinesics, Eye contact, Gaze orientation (looking at the robot), Body orientation (facing peer or robot), Posture (leaning forward), Gestures, Gesture of ideas (representing a concept), Enactments of ideas (representing a concept), Facial expression(s), Robot generated question(s), Question response(s), Peer discussion (initiated - extended or elaborated), Robot discussion (initiated - extended or elaborated), Initiating a talk related to the current topic, robot Self-talk, robot mumbling, peer Self-talk, peer mumbling [166]"
+          },
+          {
+            "indicatorName": "Forum network analysis [173]",
+            "metrics": "Course forum, (Discussion) threads, Enrolled student(s), Student post(s), post contribution(s), Number of collaborations, Post ID, Author ID, Target post ID (that the current post was a response to), Thread ID, Post (publication) timestamp [173]"
+          },
+          {
+            "indicatorName": "Learning strategies (trace data) [174]",
+            "metrics": "Answer the discussion, Undo vote for an answer in the discussion, Vote for an answer in the discussion, Follow discussion question, Unfollow discussion question, Vote discussion question, Exam question(s), Exam begin, Exam complete, Exam correct, Exam incorrect, Quiz question(s), Quiz begin, Quiz complete, Quiz correct, Quiz incorrect, Supplement start, Access the extra reading material(s), Supplement complete, Video begins, Video download, Video end, Video pause, Video play, Video playback rate, Video seek, Video subtitle change, Video subtitle download, Video volume change, Video wait to load, Page preload, Page view [174]"
+          },
+          {
+            "indicatorName": "Diffusion network analytics and clustering student(s) and student cluster(s) [181]",
+            "metrics": "Number of posts initiated, Number of students, Number of teachers, Post ID, Post subject, Post content, Post timestamp, Post author, Post target, Post replies, User ID, User logs, User role(s), Early post(s), Number of posts, Total views of a forum, Course grade(s), Group ID, Outdegree centrality, Indegree centrality, Degree centrality, Betweenness centrality, Closeness centrality, Diffusion centrality [181]"
+          }
+        ]
+      },
+      {
+        "Name": "Group Work",
+        "indicator": [
+          {
+            "indicatorName": "Final grade prediction [28]",
+            "metrics": "Number of bookmarks in a group, Total bookmarks, Number of New blog posts in the group blog, Number of blog posts, Number of Topics that each user has uploaded on group discussion, Number of topics, Number of Uploads of new files on group files page, Number of comments on bookmarks uploaded by other group member(s), Number of comments on blog posts in the group blog, Number of comments on topics of group discussion, Number of comments on files uploaded by other group member(s), Number of comments on wire posts of other group members [28]"
+          },
+          {
+            "indicatorName": "Group participation [30]",
+            "metrics": "Number of Content read, Total words produced, Number of comments, Student active in discussion(s), Student Passive in discussion(s), Activity timing, Content view(s), Web resource(s), Discussion(s) post(s) [30]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) and Emotional state [36]",
+            "metrics": "Student attendance, Exercise activities, Classroom activities, Group work activities, Satisfaction questionnaire, Positive emotion (Enjoyment / Hope / Pride / Confidence / Excitement /Interest), Negative emotion (Anxiety / Anger / Shame / Hopelessness / Boredom / Frustration), Interviews [36]"          },
+          {
+            "indicatorName": "Resource usage awareness and Self-regulated learning (SRL) [39]",
+            "metrics": "Application timestamp, User posts, Blog comment(s), Course tweet timestamp, Number of posts, Number of tweets, Total comments, Total visits, Group work discussion [39]"
+          },
+          {
+            "indicatorName": "Performance [50]",
+            "metrics": "Idea creation (Mind map style), Connection creation, Annotation website, Group discussion, Group participation, Degree of centrality, Degree of centrality of discussion, Discussion question(s), Discussion answer(s), Discussion challenge(s), Total Content creation, Total connections [50]"
+          },
+          {
+            "indicatorName": "Engagement and Performance [69]",
+            "metrics": "Student weekly participation(s), Student assignment participation(s), Student quizzes participation(s), Total student marks, Average student marks, Cumulative GPA in first three weeks, Student groups comparison, Student watched the video but did not participate, Students participated in the assessment, Grades in 60th percentile in first two weeks, Video views, Assignment submission(s), Watched video(s), Assessment participation [69]"
+          },
+          {
+            "indicatorName": "Student grade(s) prediction [115]",
+            "metrics": "Total number of groups, Total File uploads, Total downloads, Total edits, Total changes, Total comments, Total comments reads, Peer grading, Vote for accomplishment [115]"
+          },
+          {
+            "indicatorName": "Student comparison and Self-motivation and Predict grade [130]",
+            "metrics": "Total Number of clicks, Total Number of views, Number of content views, Number of content clicks, Total lectures, Total practicals, Total coursework clicks, Average time of content accesses, Total time of content accesses, Number of days per week, Average time between content accesses, Average group size of simultaneous content accesses, Number of clicks grouped by parent folder, Number of seen content, Number of unseen content, Number of total lecture views, Module grade(s), Attendance [130]"
+          },
+          {
+            "indicatorName": "Prediction (A pilot study) [144]",
+            "metrics": "Student age, sex, Pell grant eligibility, GPA, average MBA course final exam score, average peer review score, Student public message count, Student public Group message count, instant private message count, Chapter view count, Average assignment score, Final exam grade, Final Course grade, Message creator, Message timestamp, Message content, Forum message(s) [144]"
+          },
+          {
+            "indicatorName": "Self-regulated learning (SRL) [153]",
+            "metrics": "Number of students, Student click(s), Student view(s), Assignment(s), Test scores, Quizzes, Report(s), Average grade, Cumulative average grade, Cumulative final grade, Student groups (high mid-high mid-low and low performance groups), SRL survey constructs, Student motivation, Student planning, Student monitoring, Student regulation [153]"
+          },
+          {
+            "indicatorName": "Collaborative engagement (multimodal - child interaction with robot) [166]",
+            "metrics": "Video recording(s), Total sessions, Voice frequency, Speech recognition, Kinesics, Eye contact, Gaze orientation (looking at the robot), Body orientation (facing peer or robot), Posture (leaning forward), Gestures, Gesture of ideas (representing a concept), Enactments of ideas (representing a concept), Facial expression(s), Robot generated question(s), Question response(s), Peer discussion (initiated - extended or elaborated), Robot discussion (initiated - extended or elaborated), Initiating a talk related to the current topic, robot Self-talk, robot mumbling, peer Self-talk, peer mumbling [166]"
+          }
+        ]
+      },
+      {
+        "Name": "Comments",
+        "indicator": [
+          {
+            "indicatorName": "Reading analytics and Discussion contribution quantity and Discussion contribution quality [24]",
+            "metrics": "Number of comments, Number of likes, Number of replies, Average replies, Network discussion(s), Network connection(s) [24]"
+          },
+          {
+            "indicatorName": "Discussion forum quality [27]",
+            "metrics": "Average Number of messages posted, Number of comments compared to the average class contributor(s), Number of comments compared to the top class contributor(s), Number of posted messages per forum, Number of visualization views per forum, Visualization views, Forum message(s) [27]"
+          },
+          {
+            "indicatorName": "Final grade prediction [28]",
+            "metrics": "Group bookmarks, Total bookmarks, Total New blog posts in the group blog, Total blog posts, Total topics that each user has uploaded on group discussion, Total topics, Total Uploads of new files on group files page, Total comments on bookmarks uploaded by group member(s), Total comments on blog posts in the group blog, Total comments on topics of group discussion, Total comments on files uploaded by other group member(s), Total comments on wire posts of other group members [28]"
+          },
+          {
+            "indicatorName": "Resource usage awareness and Self-regulated learning (SRL) [39]",
+            "metrics": "Application timestamp, User posts, Blog comment(s), Course tweet timestamp, Number of posts, Number of tweets, Total comments, Total visits, Group work discussion [39]"
+          },
+          {
+            "indicatorName": "Discussion engagement(s) [49]",
+            "metrics": "Posts reads, Number of posts, Number of comments, Number of days student logged into a discussion, Number of times student logged into a discussion, Average session time, Average post length, Percent of sessions with posts, Number of reviews of own posts,  Number of reviews of other posts [49]"
+          },
+          {
+            "indicatorName": "Content quality [58]",
+            "metrics": "Number of likes, Number of comments, Number of replies, Number of posts, Number of promotions, Number of tags, timestamp(s) [58]"
+          },
+          {
+            "indicatorName": "MOOC completion [110]",
+            "metrics": "Number of Videos per week, Number of posts per week, Number of comments per week, Age, English skill(s), Education level, Mooc pre-survey [110]"
+          },
+          {
+            "indicatorName": "Student grade(s) prediction [115]",
+            "metrics": "Total number of groups, Total File uploads, Total downloads, Total edits, Total changes, Total comments, Total comments reads, Peer grading, Vote for accomplishment [115]"
+          },
+          {
+            "indicatorName": "Comment analytics (youtube videos) [116]",
+            "metrics": "Ranking video(s), Variety, Number of ontology superclasses, Video balance, Video disparity [116]"
+          },
+          {
+            "indicatorName": "Productivity and Collaboration [124]",
+            "metrics": "Number of discussion posts, Number of blog posts, Number of files, Number of pages, Number of discussion comments, Number of blog comments, Number of comments in a file(s), Number of comments in page(s), Number of views, Number of contacts made, Final grade(s), Average score, Course, Average number of actions, Average number of connections [124]"
+          },
+          {
+            "indicatorName": "Mediation analysis [135]",
+            "metrics": "Student gender, Student race, Student ethnicity, Free lunch status, Reduced lunch status, Math score(s), Math pre-score, A proxy for math preparedness, Total logins, Total logouts, Clickstream, Discussion question(s), Total videos, Total searched videos, Total video pauses, Total video views, Total videos watched, Total attempts to solve problems, Total sessions, Total wall posts, Total comments, Total pages searched, Total students, Total teachers, Average number of students per teacher [135]"
+          }
+        ]
+      },
+      {
+        "Name": "Posts",
+        "indicator": [
+          {
+            "indicatorName": "Group Participation [30]",
+            "metrics": "Number of Content read, Number of words produced, Number of comments, Student active in discussion(s), Student Passive in discussion(s), Activity timing, Content view(s), Web resource(s), Discussion(s) post(s) [30]"
+          },
+          {
+            "indicatorName": "Discussion engagement(s) [49]",
+            "metrics": "Posts reads, Number of posts, Number of comments, Number of days student logged into a discussion, Number of times student logged into a discussion, Average session time, Average post length, Percent of sessions with posts, Number of reviews of own posts,  Number of reviews of other posts [49]"
+          },
+          {
+            "indicatorName": "Content quality [58]",
+            "metrics": "Number of likes, Number of comments, Number of replies, Number of posts, Number of promotions, Number of tags, timestamp(s) [58]"
+          },
+          {
+            "indicatorName": "Exam success prediction [60]",
+            "metrics": "Number of logins, Number of days access, total sessions, Total clicks, Total views, exams, Total post viewed, Total post created [60]"
+          },
+          {
+            "indicatorName": "Social network analysis (SNL) [63]",
+            "metrics": "Number of emails received on social media, Number of emails sent on social media, Number of wall posts received, Number of status messages posted, Number of links shared, Number of member pages user has joined, Number of member pages user has networks joined, Number of photos posted, Number of friends, Number of connections, Number of posts written posted, Number of posts videos posted [63]"
+          },
+          {
+            "indicatorName": "Clustering (educational data mining) [66]",
+            "metrics": "Course title, Device IP address, Date and time, Time spent on theoretical content(s), Time spent on the practical task(s), Time spent on the forum(s), Time student took to check the content, Time student took to access the task, Task submitted, Task submitted time (Time until task is submitted), Number of words, Number of words written in forum posts, Number of sentences, Number of sentences written in forum posts, Pass students, Fail students [66]"
+          },
+          {
+            "indicatorName": "Social network analysis (SNL) and Discussion forum analysis and Discourse analysis [88]",
+            "metrics": "Lecture(s) discussion thread(s), Exercise(s) discussion thread(s), Quizzes discussion threads, Total users, Total anonymous users, Total user posts, Total anonymous posts, Total replies [88]"
+          },
+          {
+            "indicatorName": "Long-term engagement and Social network analysis (SNL) [90]",
+            "metrics": "score, grade, Number of posts initiated, Number of commented, Number of replies, Number of views, Video-lecture, Number of video lectures downloaded, Number of video lectures played [90]"
+          },
+          {
+            "indicatorName": "Success prediction [105]",
+            "metrics": "Assessment grade, Average grade, Number of online sessions, Total online time, Average time per session, Time until first activity, Number of courses, Number of resources views, Irregularity of study time, Irregularity of study interval, Largest period of inactivity, Number of clicks, Number of links, Number of content views, Number of discussion posts, Number of discussion views, Number of quizzes started, Number of attempts per quiz, Number of quizzes passed, Number of quiz views, Number of assignments submitted, Number of assignment views, Number of Wiki views [105]"
+          },
+          {
+            "indicatorName": "Final grade prediction [119]",
+            "metrics": "Number of forums, Number of posts, Number of views, Total quiz attempts, Time of assignment submission before the deadline, Time of peer grading before deadline [119]"
+          },
+          {
+            "indicatorName": "Productivity and Collaboration [124]",
+            "metrics": "Total discussion posts, Total blog posts, Total files, Total pages, Total discussion comments, Total blog comments, Total comments in a file(s), Total comments in page(s), Total views, Total contacts made, Final grade(s), Average score, Average actions, Average connections [124]"
+          },
+          {
+            "indicatorName": "Exploratory dialogue [142]",
+            "metrics": "Posts per min, Mean number of posts per min, Words count, Mean word count per min, Exploratory posts, Mean number of exploratory posts per min, Mean word count exploratory posts per min, Posts per contributor, Mean number of posts per contributor, Mean word count per contributor, Mean exploratory posts per contributor, Mean word count of exploratory posts per contributor [142]"
+          },
+          {
+            "indicatorName": "At-risk student(s) [122]",
+            "metrics": "Gender, Age, GPA, Grade(s), Number of sessions opened, Number of content viewed, Number of discussions read, Number of discussions posted, Number of assignments committed, Number of assessments submitted, Number of course sessions compared to course average, Number of content Resources viewed compared to course average, Full-time enrollment, part-time enrollment [122]"
+          },
+          {
+            "indicatorName": "Student performance prediction [154]",
+            "metrics": "User ID, Timestamp, Course, LMS module, Student(s) module action(s), Action info, URL, Student final course mark(s), Number of assessments, Number of assessments submitted, Number of reexamined assessment requirements, Number of reexamined assignment views, Number of quizzes, Number of quizzes attempts, Course view(s), Forum view(s), Number of forum posts, Number of forum posts updated, Forum subscribe(s), Student feedback view(s), Student quiz summary view(s) [154]"
+          },
+          {
+            "indicatorName": "Time management and Learning strategy and Learning tactic(s) [157]",
+            "metrics": "Student interaction(s) with the online course activities, Student(s) assessment(s) grade(s), Student(s) quizzes grades, Timestamp of each event, Assignment view(s), Quiz view(s), Resource views, Forum view(s), Assignment attempt(s), Quiz attempt(s), Resource attempts, Forum attempt(s), Assignment update, quiz update, resource update, forum update, Forum discussion post, Course view(s), Overall course score, Anonymous user ID(s), Course module ID(s), Description of the learning action [157]"
+          },
+          {
+            "indicatorName": "Student success prediction (blended learning) [158]",
+            "metrics": "Timestamp, Add a post, Add user, Click bookmark, Click course tool heading, Click navigation bar, Click resume, Load video, Click next page, Page close, Pause video, Play video, Previous page, Reset problem, Save answer of a problem, Seek video, Course content clip(s), Server grade(s) submitted, Server problem checked, Click show answer of a problem, Speed change video, Submit problem, User enrollment, Video completed, Forum view(s) [158]"
+          },
+          {
+            "indicatorName": "Epistemic network analytics and Online discussion analytics [159]",
+            "metrics": "Course grade, Total messages, Word count, Word frequency, Total threads, Total apostrophes, Total exclamation marks, Total negative emotions, Total negations, First person plural, First person singular, Second person, Total question marks, Total assents, Auxiliary verb(s), Total periods, Total punctuation, Total senses of a word, Incidence score of pronoun(s), Dictionary words, Mean number of letters in words within the text, Proportion of intersection tree node(s) between all sentences, Total function words, Total affiliations, Social processes, Total clout-related words [159]"
+          },
+          {
+            "indicatorName": "Reflection(s) (automated assessment) [171]",
+            "metrics": "Total students, Reflective statement(s), Student submitted text, Total statements, Personal id, Post id, Prompt type, Date of posting [171]"
+          },
+          {
+            "indicatorName": "Forum network analytics [173]",
+            "metrics": "Course forum, (Discussion) threads, Enrolled student(s), Student post(s), post contribution(s), Number of collaborations, Post ID, Author ID, Target post ID (that the current post was a response to), Thread ID, Post (publication) timestamp [173]"
+          },
+          {
+            "indicatorName": "Diffusion network analysis and clustering student(s) and student cluster(s) [181]",
+            "metrics": "Number of posts initiated, Number of students, Number of teachers, Post ID, Subject, Content, Timestamp, Post author, Post target, Post replies, User IDs, User log(s), User role(s), Early post(s), Number of posts, Total forum views, Course grade(s), Group ID(s), Outdegree centrality, Indegree centrality, Degree centrality, Betweenness centrality, Closeness centrality, Diffusion centrality [181]"
+          }
+        ]
+      },
+      {
+        "Name": "Discourse",
+        "indicator": [
+          {
+            "indicatorName": "Discourse analysis [80]",
+            "metrics": "Student age, Student gender, Subject, Student forum discussion(s), Collaboration, Questionnaire response opinion(s), Analyze text opinion, Analyze text elaboration, Analyze text evidence [80]"
+          },
+          {
+            "indicatorName": "Social network analytics and Discussion forum analytics and Discourse analytics [88]",
+            "metrics": "Lecture(s) discussion thread(s), Exercise(s) discussion thread(s), Quizzes discussion threads, Total users, Total anonymous users, Total user posts, Total anonymous posts, Total replies [88]"
+          },
+          {
+            "indicatorName": "Discourse analytics [95]",
+            "metrics": "Forum discussion, Forum activities, Forum post(s), Forum replies, Forum question(s) [95]"
+          },
+          {
+            "indicatorName": "Performance prediction [108]",
+            "metrics": "Total edges (Measure relationship), Edge weight, (Measure) Network structure, (Measure) Network position, Total sent messages, Sent message(s), Total received messages, Received message(s), Measure of engagement (Total sent messages compared to the total received messages), Total connections [108]"
+          }
+        ]
+      },
+      {
+        "Name": "Review/Study",
+        "indicator": [
+          {
+            "indicatorName": "Discussion engagement(s) [49]",
+            "metrics": "Posts reads, Number of posts, Number of comments, Number of days student logged into a discussion, Number of times student logged into a discussion, Average session time, Average post length, Percent of sessions with posts, Number of reviews of own posts,  Number of reviews of other posts [49]"
+          },
+          {
+            "indicatorName": "Recommendation and Software recommendation and Tool(s) recommendation [141]",
+            "metrics": "Average time spent on the document, Maximum time spent on the document, Minimum time spent on the document, Average time of the day student(s) work, Total time spent on a course, Amount of time spent during a different point in time of the day, number of documents, Number of the student, Average number of documents used, Maximum number of documents used, Minimum number of documents used [141]"
+          },
+          {
+            "indicatorName": "Self-monitoring and Awareness and Learning pattern(s) [53]",
+            "metrics": "Number of resources used, Resource usage time, Minimum number of resources used, Maximum number of resources used, Average number of resources used, Minimum time spent, Maximum time spent, Average time spent [53]"
+          }
+        ]
+      },
+      {
+        "Name": "Question (Query/Inquiry)",
+        "indicator": [
+          {
+            "indicatorName": "Classifying student behavior [29]",
+            "metrics": "Number of answers, Number of questions asked, Number of videos watched, Time between videos watched [29]"
+          },
+          {
+            "indicatorName": "Feedback system (social comparison) [31]",
+            "metrics": "Quiz submission timeline, Watched time, time on the platform, number of videos accessed, number of forum visits, number of sessions per week, Number of questions attempted, percent of time spent on videos, percent of quizzes, mean session length between session(s), mean session time between session(s), average time on the platform per week, number of visited video lectures, number of forum contributions [31]"
+          },
+          {
+            "indicatorName": "Trace performance and Trace behavior and Learning strategies [46]",
+            "metrics": "Final grade, Course pass, Course fail, Total video interactions, Number of quiz submissions, Number of posts, Duration of time in a course, Duration of total appearance, Response submission(s), Post exam quiz score, Learner intention(s), Prior education level [46]"
+          },
+          {
+            "indicatorName": "User knowledge level [51]",
+            "metrics": "Number of user interactions, Number of user interactions actions, Question(s), Questionnaire, Task solving, Test, Forum replies, Forum answer(s) [51]"
+          },
+          {
+            "indicatorName": "Online discussion (forum) behavior and Reflection [52]",
+            "metrics": "Reputation of the person posting a question, Reputation of the person posting an answer, Background of person, Posting history, Rating(s), Connection(s) [52]"
+          },
+          {
+            "indicatorName": "Course assessment(s) [55]",
+            "metrics": "Number of students, Number of Topics, Number of Tags, Student background, Course material(s), Student achievement(s), Student Grade(s), Resources used, MCQs, Question(s), Rating(s), Discussion(s) [55]"
+          },
+          {
+            "indicatorName": "Temporal analytics and Temporal statistical analytics [68]",
+            "metrics": "Student activities, Answering computer-based test(s), Time spent on the question answered correctly, Question answered correctly, Time spent on the question answered incorrectly, Question answered incorrectly, Goal expectancy, Student preparedness [68]"
+          },
+          {
+            "indicatorName": "Engagement [86]",
+            "metrics": "List of questions, List of answers, Average error rate for an answer, Average error rate, Error rates comparison, Total attempts, Response time, Total learners, Learners feedback on question difficulty, Learners feedback, Feedback percent [86]"
+          },
+          {
+            "indicatorName": "Feedback [91]",
+            "metrics": "Video clips interaction(s), Questions next to video clip(s), Resource access, Dashboard access [91]"
+          },
+          {
+            "indicatorName": "Performance prediction and Self-regulated learning (SRL) [98]",
+            "metrics": "LMS interactions, Number of clicks, Number of views, Video interactions, Questions next to the video, Interactions with questions in course note(s), HTML resource action(s), HTML resource interaction(s), Expand section, Collapse section, Dashboard access [98]"
+          },
+          {
+            "indicatorName": "Performance prediction [100]",
+            "metrics": "Total plays, Total pauses, Total events, Total videos, Total play pause events in the video for the week, Total times a question next to a video clip was answered, Video questions, Total times a question in the course notes was answered, Total questions answered correctly, Total questions answered incorrectly [100]"
+          },
+          {
+            "indicatorName": "Game based learning and Game learning strategy and Game Performance prediction [104]",
+            "metrics": "Total game teams, Total game team members, Game simulation interaction(s), Explore activity game mode(s), Challenge activity game mode(s), Total game explores, Total game questions, Total game challenges, Total game questions, Total remaining game questions, Correct game answer(s), Incorrect game answer(s), Time spent answering, Total students, Total students completed challenge questions in the game, Total challenge attempts in a game, Total correctly answered questions, Total game scores, Total game points [104]"
+          },
+          {
+            "indicatorName": "Cognitive load and Self-efficacy (with academic performance and trace data) [133]",
+            "metrics": "Student engagement with the pre-class course activities, Reading material(s), Number of videos, Number of quizzes, Number of MCQs, Number of exercises, Number of questions, Number of correct answers, Number of incorrect answers, Request solution(s), Number of clicks, Number of views, Timestamp, Number of evaluations per student, Number of evaluations per activity, final exam score [133]"
+          },
+          {
+            "indicatorName": "Reading analytics [134]",
+            "metrics": "Number of reading mean turns, Number of reading standard deviation turns, Number of reading min turns, Number of reading max turns, Number of questions mean answered, Number of questions Standard deviation answered, Number of questions min answered, Number of questions max answered, percent of answered mean correctly, percent of answered Standard deviation correctly, percent of answered min correctly, percent of answered max correctly, total audio time mean recorded, total audio time Standard deviation recorded, total audio time min recorded, total audio time max recorded, average reading rate, timeline [134]"
+          },
+          {
+            "indicatorName": "Video engagement and Video analytics [138]",
+            "metrics": "Video(s) watched, In-video question(s), Correct answer(s), incorrect answer(s), Weekly quizzes, Weekly tests, Assignment(s), Number of students reads, Grade(s) [138]"
+          },
+          {
+            "indicatorName": "Eye-fixation(s) and Eye-tracking and Eye-movement (multimodal) [146]",
+            "metrics": "Number of students, Number of fixations, Fixation timestamp, Eye movement(s), Eye movements time, Question answering task, Number of tasks, Time spent, Eye movement coordinate(s), Screen capture video [146]"
+          },
+          {
+            "indicatorName": "Classify student(s) [92]",
+            "metrics": "Total time to answer correctly, Total time to answer incorrectly, Total idle time, Effort composite feature, Actual performance, Goal expectancy, Student(s) score, Number of changes to answer, Number of idle time student(s) spend(s) viewing task, Number of times student(s) view task [92]"
+          },
+          {
+            "indicatorName": "Collaborative engagement (multimodal - child interaction with robot) [166]",
+            "metrics": "Video recording(s), Total sessions, Voice frequency, Speech recognition, Kinesics, Eye contact, Gaze orientation (looking at the robot), Body orientation (facing peer or robot), Posture (leaning forward), Gestures, Gesture of ideas (representing a concept), Enactments of ideas (representing a concept), Facial expression(s), Robot generated question(s), Question response(s), Peer discussion (initiated - extended or elaborated), Robot discussion (initiated - extended or elaborated), Initiating a talk related to the current topic, robot Self-talk, robot mumbling, peer Self-talk, peer mumbling [166]"
+          }
+        ]
+      },
+      {
+        "Name": "Survey (Questionnaire)",
+        "indicator": [
+          {
+            "indicatorName": "Self-regulated learning (SRL) and Emotional state [36]",
+            "metrics": "Student attendance, Exercise activities, Classroom activities, Group work activities, Satisfaction questionnaire, Positive emotion (Enjoyment / Hope / Pride / Confidence / Excitement /Interest), Negative emotion (Anxiety / Anger / Shame / Hopelessness / Boredom / Frustration), Interviews [36]"          },
+          {
+            "indicatorName": "User knowledge level [51]",
+            "metrics": "Number of user interactions, Number of user interactions actions, Question(s), Questionnaire, Task solving, Test, Forum replies, Forum answer(s) [51]"
+          },
+          {
+            "indicatorName": "Online discussion (forum) behavior and Reflection [52]",
+            "metrics": "Reputation of the person posting a question, Reputation of the person posting an answer, Background of person, Posting history, Rating(s), Connection(s) [52]"
+          },
+          {
+            "indicatorName": "Discourse analysis [80]",
+            "metrics": "Student age, Student gender, Subject, Student forum discussion(s), Collaboration, Questionnaire response opinion(s), Analyze text opinion, Analyze text elaboration, Analyze text evidence [80]"
+          },
+          {
+            "indicatorName": "Student progress and Student alert [87]",
+            "metrics": "Student name, Student age, Student gender, Self-report survey, Self-report questionnaires, Student performance on the assessment, Course grade(s), Final exam [87]"
+          }
+        ]
+      },
+      {
+        "Name": "Presentation",
+        "indicator": [
+          {
+            "indicatorName": "Presentation skill(s) (multimodal) [35]",
+            "metrics": "Video Sensor Data, Body movement, Number of hand gestures, Total gestures, Audio sensor data, Voice speed, Voice level, Number of pauses [35]"
+          },
+          {
+            "indicatorName": "Presentation skill(s) (multimodal) [40]",
+            "metrics": "Gaze tracking, Gaze tracking using a camera, Body posture, Body posture using a camera, Total pauses, Pauses using an audio sensor, Volume using an audio sensor, Total movements, Total gestures [40]"
+          }
+        ]
+      },
+      {
+        "Name": "Vote(poll)",
+        "indicator": [
+          {
+            "indicatorName": "Student grade(s) prediction [115]",
+            "metrics": "Total number of groups, Total File uploads, Total downloads, Total edits, Total changes, Total comments, Total comments reads, Peer grading, Vote for accomplishment [115]"
+          },
+          {
+            "indicatorName": "Learning strategy (trace data) [174]",
+            "metrics": "Answer the discussion, Undo vote for an answer in the discussion, Vote for an answer in the discussion, Follow discussion question, Unfollow discussion question, Vote discussion question, Exam question(s), Exam begin, Exam complete, Exam correct, Exam incorrect, Quiz question(s), Quiz begin, Quiz complete, Quiz correct, Quiz incorrect, Supplement start, Access the extra reading material(s), Supplement complete, Video begins, Video download, Video end, Video pause, Video play, Video playback rate, Video seek, Video subtitle change, Video subtitle download, Video volume change, Video wait to load, Page preload, Page view [174]"
+          }
+        ]
+      }
+    ]
+  }
+]
