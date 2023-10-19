@@ -73,6 +73,7 @@ import { CourseDifficultyComponent } from "./charts/course-difficulty/course-dif
 import { CurriculumUsageComponent } from "./charts/curriculum-usage/curriculum-usage.component";
 import { PresentationSkillsComponent } from "./charts/presentation-skills/presentation-skills.component";
 import { AdminComponent } from "./component/admin/admin.component";
+import { IndicatorsListComponent } from './component/indicators-list/indicators-list.component';
 
 // const routes: Routes = [
 //   { path: "add", component: AddDataComponent, canActivate: [AuthGuardService]},
@@ -131,6 +132,7 @@ import { AdminComponent } from "./component/admin/admin.component";
     CourseDifficultyComponent,
     CurriculumUsageComponent,
     PresentationSkillsComponent,
+    IndicatorsListComponent,
   ],
   imports: [
     BrowserModule,

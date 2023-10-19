@@ -50,6 +50,7 @@ export class DataService {
     }
     return this.http.post(`${this.uri}/getsearchindicator`, { search, httpOptions });
   }
+  
 
   addData(LearningEvents: any, LearningActivities: any, indicator: any) {
 
