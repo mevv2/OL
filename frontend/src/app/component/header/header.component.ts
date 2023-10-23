@@ -21,6 +21,10 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(['/reference']);
     //this.router.navigate([]).then(result => {  window.open( `/referance`, '_blank'); });
   }
+  indDashboard() {
+    this.router.navigate(['/indDash']);
+    //this.router.navigate([]).then(result => {  window.open( `/referance`, '_blank'); });
+  }
   admin() {
     this.router.navigate(['/login']);
   }
