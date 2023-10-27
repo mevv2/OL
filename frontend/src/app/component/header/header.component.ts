@@ -22,7 +22,7 @@ export class HeaderComponent implements OnInit {
     //this.router.navigate([]).then(result => {  window.open( `/referance`, '_blank'); });
   }
   indDashboard() {
-    this.router.navigate(['/indDash']);
+    this.router.navigate(['/indDashboard']);
     //this.router.navigate([]).then(result => {  window.open( `/referance`, '_blank'); });
   }
   admin() {

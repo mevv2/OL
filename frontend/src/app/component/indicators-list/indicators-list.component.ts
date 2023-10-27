@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../data.service';
+import * as Highcharts from 'highcharts';
+import HC_exporting from 'highcharts/modules/exporting';
+HC_exporting(Highcharts);
 
 @Component({
   selector: 'app-indicators-list',
@@ -13,12 +16,16 @@ export class IndicatorsListComponent implements OnInit {
   indicatorsList: string[] = [];
   indicatorsListDuplicate: string[] = [];
   tuplesArray: any[] = [];
+  Highcharts: typeof Highcharts = Highcharts;
+  pieChartOptions: Highcharts.Options;
+  barChartOptions: Highcharts.Options;
 
 ngOnInit() {
   this.dataService.getdata().subscribe(data => {
     // Hier verarbeiten Sie die Daten und extrahieren die Indikatoren
     this.processData(data);
   });
+  
 }
 
 
@@ -92,12 +99,69 @@ processData(data: any) {
     this.tuplesArray.push({
       name: key,
       y: frequencyObj[key],
-      color: 'eeeeee'
+      color: this.getRandomBlueColor()
     });
   }
 
   // Sortieren Sie das Array basierend auf der Anzahl der Vorkommen
   this.tuplesArray.sort((a, b) => b.y - a.y);
+  const topTenItems = this.tuplesArray.slice(0, 10);
+  const barChartData = topTenItems.map(item => {
+    return {
+      name: item.name,
+      y: item.y
+    };
+  });
+  
+  this.pieChartOptions = {
+    chart: {
+      type: 'pie'
+    },
+    title: {
+      text: 'Top 10 Indicators'
+    },
+    series: [{
+      type: 'pie',
+      data: topTenItems // Stellen Sie sicher, dass chartData korrekt definiert ist
+    }]
+  };
+
+  this.barChartOptions = {
+    chart: {
+      type: 'bar'
+    },
+    title: {
+      text: 'Top 10 Indicators'
+    },
+    xAxis: {
+      categories: barChartData.map(data => data.name),
+      title: {
+        text: null
+      }
+    },
+    yAxis: {
+      min: 0,
+      title: {
+        text: 'Occurrences',
+        align: 'high'
+      },
+      labels: {
+        overflow: 'justify'
+      }
+    },
+    series: [{
+      type: 'bar',
+      name: 'Indicators',
+      data: barChartData.map(data => data.y)
+    }]
+  };
+};
+
+
+
+getRandomBlueColor() {
+  const blueComponent = Math.floor(Math.random() * 256); // Zufälliger Wert zwischen 0 und 255
+  return `rgb(0, 0, ${blueComponent})`;
 }
 
 

@@ -1,0 +1,13 @@
+.charts-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .chart-container {
+    width: 45%; /* oder eine andere Breite, je nachdem, wie groß Sie die Charts haben möchten */
+    border: 1px solid #ccc; /* optional, fügt einen Rand hinzu */
+    border-radius: 10px; /* abgerundete Ecken */
+    padding: 10px; /* etwas Abstand im Inneren */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* optional, fügt einen leichten Schatten hinzu */
+  }
