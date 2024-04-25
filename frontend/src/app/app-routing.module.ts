@@ -7,6 +7,7 @@ import { AuthGuardService } from './auth-guard.service';
 import { ReferanceComponent } from "./component/reference/referance.component";
 import { DashboardComponent } from "./component/dashboard/dashboard.component";
 import { IndicatorsListComponent } from "./component/indicators-list/indicators-list.component";
+import { IndiCounterComponent } from './component/indi-counter/indi-counter.component';
 
 const routes: Routes = [
   //{ path: '/display/data/s', redirectTo: '/', pathMatch: 'full' },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: "", component: DisplayComponent },
   { path: "", redirectTo: "display/data", pathMatch: "full" },
   { path: "indDashboard", component: IndicatorsListComponent },
+  { path: 'indi-counter', component: IndiCounterComponent },
   
 
   //{ path: 'display/data', redirectTo: 'https://latool.github.io/', pathMatch: 'full' },

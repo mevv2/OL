@@ -1,0 +1,175 @@
+{
+  "list": [
+    {
+      "category": "Predictive analytics",
+      "indicators": [
+        {
+          "indiName": "Academic success [67], Final grade prediction [26, 28, 119], Grade prediction [83, 130, 78, 79, 115], Exam success prediction [71, 60], Success prediction [37, 56, 96, 105], Predict college major (by middle school learning behavior) [75], Predict course successful completion [70], Predictive analytics [75], Passing rate prediction [26], Prediction (A pilot study & proposal) [143, 144]"
+        }
+      ]
+    },
+    {
+      "category": "At-Risk Students",
+      "indicators": [
+        {
+          "indiName": "Retention prediction [64, 94], At-Risk Students [82, 101, 122, 64, 71, 131], Dropout prediction [82, 79, 136], Dropping out [59], Early warning [79, 82, 97, 99, 101], Predict early alert & student retention [140], Retention (College student) [122], Retention [97]"
+        }
+      ]
+    },
+    {
+      "category": "Course difficulty",
+      "indicators": [
+        {
+          "indiName": "Course difficulty [77], Course difficulty level [83], Perceived difficulty [133]"
+        }
+      ]
+    },
+    {
+      "category": "Social network analysis",
+      "indicators": [
+        {
+          "indiName": "Social network analysis [63, 90, 93], Social network analysis(Discussion forum) [88], Collaboration network [61], Epistemic network analysis [42], Classifying student behavior [29], Group participation [30], Connectedness [124], Online Discussion (forum) Behavior [52], Collaboration [124], Collaborative Learning [47]"
+        }
+      ]
+    },
+    {
+      "category": "Self-Regulation",
+      "indicators": [
+        {
+          "indiName": "Self-regulated learning [98, 46, 139], Self-regulation [36, 46, 125], Self-efficacy [133], Self-motivation [53, 130, 139], Alerting [87], Self-reflection [39, 87],Feedback [41, 91],Metacognitive awareness [31],Awareness [26, 53]"
+        }
+      ]
+    },
+	{
+  "category": "Affective state",
+  "indicators": [
+    {
+      "indiName": "Affective state [84, 85], Self-reported affective state [32], Emotion [32], Emotional state [36], Measure a fixed mindset [87], Measure belonging uncertainty [87], Measure stereotype threat (Questionnaires) [87]"
+    }
+  ]
+},
+{
+  "category": "Time Management",
+  "indicators": [
+    {
+      "indiName": "Time distribution [39], Time Planning [47]"
+    }
+  ]
+},
+{
+  "category": "Curriculum analytics",
+  "indicators": [
+    {
+      "indiName": "Curriculum planning/designing [65], Teacher curriculum usage [65], Content quality [58], Syllabus Quality / Design [109], Assignments quality [42], Resource usage awareness [39]"
+    }
+  ]
+},
+{
+  "category": "Performance",
+  "indicators": [
+    {
+      "indiName": "Academic performance [129], Performance [25, 34, 50, 69, 83, 102, 126, 131], Predict performance [26, 37, 46, 54, 100, 117, 123], Predict performance (by self-regulation metrics) [98], Predict performance (social network analysis) [108], Predict academic achievement [81]"
+    }
+  ]
+},
+{
+  "category": "Course analytics",
+  "indicators": [
+    {
+      "indiName": "Course assessments [55], Course planning [99]"
+    }
+  ]
+},
+{
+  "category": "Recommendations",
+  "indicators": [
+    {
+      "indiName": "Dataset evaluation (for recommender systems) [145], Recommendations [141], Recommendations for successful course completion [125], Resource recommendation [57, 112]"
+    }
+  ]
+},
+{
+  "category": "Writing analytics",
+  "indicators": [
+    {
+      "indiName": "Writing engagement [48], Writing analysis [89], Reflective writing [89], Writing analytics [61]"
+    }
+  ]
+},
+{
+  "category": "Discourse analytics",
+  "indicators": [
+    {
+      "indiName": "Exploratory dialogue [142], Discourse analysis [80, 88, 95], Discussion engagements [49], Discussion contribution quantity & quality [24], Discussion forum quality [27]"
+    }
+  ]
+},
+{
+  "category": "Learning (behavior) patterns",
+  "indicators": [
+    {
+      "indiName": "Learning behavior patterns [111], Learning patterns [53, 132], Student interaction patterns (relation to performance) [127], Student interaction patterns [121], Student behavior [103], Learning behavior [34, 76], Learning strategies [34, 46, 118, 129]"
+    }
+  ]
+},
+{
+  "category": "Game analytics",
+  "indicators": [
+    {
+      "indiName": "Badges earned [43], Gamification [45], Game-Based Learning [104], Learning strategy (Game) [104], Predict performance (Game) [104]"
+    }
+  ]
+},
+{
+  "category": "Video analytics",
+  "indicators": [
+    {
+      "indiName": "Video analytics (Self-reflection) [72], Video analytics [113], Comment analytics (Youtube videos) [116], Video engagements / analytics [138]"
+    }
+  ]
+},
+{
+  "category": "Reading analytics",
+  "indicators": [
+    {
+      "indiName": "Reading analytics [24, 114, 134], Ideal reading material [114]"
+    }
+  ]
+},
+{
+  "category": "Engagement",
+  "indicators": [
+    {
+      "indiName": "Engagement and disengagement (Multimodal) [38], Engagement and disengagement [44], Engagement [69, 86], Long term engagement [90], Measure engagement [123], Keystroke analytics [120], Clickstream analysis [103]"
+    }
+  ]
+},
+{
+  "category": "Progress report",
+  "indicators": [
+    {
+      "indiName": "Learning progress (LMS Usage) [62], Student progress (LMS activities) [87]"
+    }
+  ]
+},
+{
+  "category": "Clustering",
+  "indicators": [
+    {
+      "indiName": "Students classification [92, 113], Pass-fail classification [120], Clustering (educational data mining) [66]"
+    }
+  ]
+},
+{
+  "category": "Standalone",
+  "indicators": [
+    {
+      "indiName": "MOOC completion [110], Passing probability [33], Measure success [93], Timeline (status and goal) [125], Student efficiency [62], Text analysis [85], Carelessness [106], Cognitive activity [146], Cognitive load [133], Competency [31], Engaged concentration [74], Eye fixations (eye-tracking) [146], Learning dashboard [128], Mediation analysis [135], Online change detection [137], Peer assessment ability [73], Presentation skills (Multimodal) [35, 40], Procrastination [46, 102, 107], Productivity [124], Initiative [124], Responsiveness [124], Presence [124], Student comparison [126, 130], Temporal analysis [68], User knowledge level [51]"
+    }
+  ]
+}
+
+
+    
+  ]
+}

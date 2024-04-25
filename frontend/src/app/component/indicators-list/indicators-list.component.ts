@@ -1,7 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild} from '@angular/core';
 import { DataService } from '../../data.service';
 import * as Highcharts from 'highcharts';
 import HC_exporting from 'highcharts/modules/exporting';
+import * as jsonData from '../indicator-categories.json';
+import * as echarts from 'echarts';
+
 HC_exporting(Highcharts);
 
 @Component({
@@ -10,24 +13,152 @@ HC_exporting(Highcharts);
   styleUrls: ['./indicators-list.component.css']
 })
 export class IndicatorsListComponent implements OnInit {
+  @ViewChild('treeChartContainer', { static: true }) treeChartContainer: ElementRef;
+
 
   constructor(private dataService: DataService) {}
 
   indicatorsList: string[] = [];
   indicatorsListDuplicate: string[] = [];
+  eventsList: string[] = [];
   tuplesArray: any[] = [];
+  metricsList: string[] = [];
+  indList: string[] = [];
+  indList2: { [key: string]: string[] } = {};
+  catIndList: string[] = [];
+  activitiesList: string[] = [];
+  aggregateData: any[] = [];
   Highcharts: typeof Highcharts = Highcharts;
   pieChartOptions: Highcharts.Options;
   barChartOptions: Highcharts.Options;
 
 ngOnInit() {
   this.dataService.getdata().subscribe(data => {
-    // Hier verarbeiten Sie die Daten und extrahieren die Indikatoren
     this.processData(data);
+    const transformedData = this.transformDataToEChartsTree(data);
+    console.log("Transformed Tree Data:", transformedData); 
+    this.initTreeChart(transformedData);
   });
-  
+  this.newJson();
+  this.generateAggregateIndicatorData();
 }
 
+newJson() {
+  this.catIndList = [];
+
+  jsonData.list.forEach(category => {
+    this.indList2[category.category] = [];
+
+    category.indicators.forEach(indicator => {
+      const regex = /,(?![^\[]*\])/g;
+      this.indList2[category.category].push(...indicator.indiName.split(regex).map(ind => ind.trim()));
+      const indicators = indicator.indiName.split(regex);
+      this.catIndList.push(...indicators);
+    });
+  });
+
+}
+
+generateAggregateIndicatorData() {
+  this.aggregateData = [];
+  const baseIntensity = 255;
+  const intensityStep = 30;
+
+  this.catIndList.forEach(indicator => {
+    // Extrahieren Sie den Indikatornamen und entfernen Sie die eckigen Klammern
+    const name = indicator.replace(/\s*\[.*?\]\s*$/, '').trim();
+
+    // Extrahieren Sie die Zahlen in den eckigen Klammern
+    const numbersMatch = indicator.match(/\[(.*?)\]/);
+    const numbers = numbersMatch ? numbersMatch[1].split(',').length : 0;
+
+    let currentIntensity = baseIntensity - (numbers * intensityStep);
+    currentIntensity = currentIntensity < 0 ? 0 : currentIntensity;
+
+    // Erstellen Sie ein Objekt mit dem Namen, der Anzahl und einer zufälligen Farbe
+    this.aggregateData.push({
+      name: name,
+      y: numbers,
+      color: `rgb(0, 0, ${currentIntensity})`
+    });
+  });
+
+  this.aggregateData.sort((a, b) => b.y - a.y);
+
+  return this.aggregateData;
+}
+
+transformDataToEChartsTree(data) {
+  const treeData = {
+    name: "openLAIR",
+    children: data.map(event => ({
+      name: event.LearningEvents,
+      children: event.LearningActivities.map(activity => ({
+        name: activity.Name,
+        children: activity.indicator.map(indicator => ({
+          name: indicator.indicatorName,
+          children: indicator.metrics.split(', ').map(metric => ({
+            name: metric
+          }))
+        }))
+      }))
+    }))
+  };
+  return treeData;
+}
+
+initTreeChart(transformedData: any) {
+  const treeChart = echarts.init(this.treeChartContainer.nativeElement);
+  const option = {
+    tooltip: {
+      trigger: 'item',
+      triggerOn: 'mousemove',
+      formatter: "{b}: {c}" // b ist der Knotenname, c die Wert
+    },
+    series: [{
+      type: 'tree',
+      data: [transformedData],
+      top: '1%',
+      left: '7%',
+      bottom: '1%',
+      right: '20%',
+      symbolSize: 7,
+      label: {
+        position: 'left',
+        verticalAlign: 'middle',
+        align: 'right',
+        fontSize: 15,
+        fontWeight: 'bold',
+        color: '#000'
+      },
+      leaves: {
+        label: {
+          position: 'right',
+          verticalAlign: 'middle',
+          align: 'left'
+        }
+      },
+      lineStyle: {
+        color: '#ccc',
+        width: 2,
+        type: 'solid' // 'dotted', 'dashed'
+      },
+      itemStyle: {
+        color: '#123456', 
+        borderColor: '#123456',
+        borderWidth: 2
+      },
+      expandAndCollapse: true,
+      animationDuration: 550,
+      animationDurationUpdate: 750
+    }]
+  };
+  treeChart.setOption(option);
+}
+
+transformData(data: any): any {
+  // ... Ihre Logik zur Umwandlung der Daten
+}
 
 splitIndicator(indicator: string): string[] {
   // Extrahieren Sie den Verweis
@@ -46,6 +177,9 @@ splitIndicator(indicator: string): string[] {
 
 processData(data: any) {
   let tempIndicators: string[] = [];
+  let tempEvents: string[] = [];
+  let tempMetrics: string[] = [];
+  let tempActivities: string[] = [];
 
   data.forEach(item => {
     if (item && item.LearningActivities) {
@@ -62,8 +196,44 @@ processData(data: any) {
     }
   });
 
+  data.forEach(item => {
+    if (item && item.LearningEvents) {
+      tempEvents.push(item.LearningEvents);
+    }
+  });
+
+  data.forEach(item => {
+    if (item && item.LearningActivities) {
+      item.LearningActivities.forEach(activity => {
+        if (activity && activity.Name) {
+          tempActivities.push(activity.Name);
+        }
+      });
+    }
+  });
+
+  data.forEach(item => {
+    // ... (Verarbeitung von LearningEvents und Indicators bleibt unverändert)
+
+    if (item && item.LearningActivities) {
+      item.LearningActivities.forEach(activity => {
+        if (activity && activity.indicator) {
+          activity.indicator.forEach(ind => {
+            if (ind && ind.metrics) {
+              tempMetrics.push(...ind.metrics.split(', ').map(metric => metric.trim()));
+            }
+          });
+        }
+      });
+    }
+  });
+  
   this.indicatorsList = [...new Set(tempIndicators)];
   this.indicatorsListDuplicate = [...this.indicatorsList];
+  this.eventsList = [...new Set(tempEvents)];
+  this.metricsList = [...new Set(tempMetrics)];
+  this.activitiesList = [...new Set(tempActivities)];
+
 
   this.indicatorsListDuplicate.sort((a, b) => {
     // Entfernen Sie die [Zahl] aus beiden Strings
@@ -82,6 +252,14 @@ processData(data: any) {
 
   this.indicatorsListDuplicate = this.indicatorsListDuplicate.map(item => item.replace(/\[\d+\]$/, '').trim());
 
+  this.indList = [...new Set(this.indicatorsListDuplicate)];
+
+  this.indList = this.indList.map(ind => 
+    ind.toLowerCase().replace(/\(s\)$/,'').trim()
+  );
+
+  this.indList = [...new Set(this.indList)];
+
   let frequencyObj = {};
 
   this.indicatorsListDuplicate.forEach(item => {
@@ -99,13 +277,13 @@ processData(data: any) {
     this.tuplesArray.push({
       name: key,
       y: frequencyObj[key],
-      color: this.getRandomBlueColor()
+      color: `rgb(0, 0, 0)`
     });
   }
 
   // Sortieren Sie das Array basierend auf der Anzahl der Vorkommen
   this.tuplesArray.sort((a, b) => b.y - a.y);
-  const topTenItems = this.tuplesArray.slice(0, 10);
+  const topTenItems = this.aggregateData.slice(0, 10);
   const barChartData = topTenItems.map(item => {
     return {
       name: item.name,
@@ -159,16 +337,16 @@ processData(data: any) {
 
 
 
-getRandomBlueColor() {
-  const blueComponent = Math.floor(Math.random() * 256); // Zufälliger Wert zwischen 0 und 255
-  return `rgb(0, 0, ${blueComponent})`;
-}
-
-
 logIndicators() {
   console.log(this.indicatorsList);
   console.log(this.indicatorsListDuplicate);
   console.log(this.tuplesArray);
+  console.log('Learning Events:', this.eventsList);
+  console.log('Metrics:', this.metricsList);
+  console.log('Indicators:', this.indList);
+  console.log('Activities:', this.activitiesList);
+  console.log('CatIndi:', this.indList2);
+  console.log('CatIndi1:', this.aggregateData);
 }
 
 }

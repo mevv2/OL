@@ -11,3 +11,59 @@
     padding: 10px; /* etwas Abstand im Inneren */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* optional, fügt einen leichten Schatten hinzu */
   }
+
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px; /* Fügt einen Abstand zwischen den Boxen hinzu */
+  }
+  
+  .stat-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten für einen 3D-Effekt */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1; /* Animation für Hover-Effekt */
+  }
+  
+  
+  .stat-box h3 {
+    color: #333; /* Dunklere Farbe für den Titel */
+    margin-bottom: 10px; /* Abstand zwischen Titel und Zahl */
+  }
+  
+  .stat-box p {
+    font-size: 1.5em; /* Größere Schrift für die Zahl */
+    color: #007bff; /* Farbe für die Zahl */
+  }
+
+  .overlay {
+    position: fixed; /* Vollbild-Overlay */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Halbtransparenter schwarzer Hintergrund */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Stellt sicher, dass das Overlay über anderen Elementen liegt */
+  }
+  
+  .expanded-chart {
+    width: 80%; /* Vergrößerte Breite */
+    height: 80%; /* Vergrößerte Höhe */
+    z-index: 1001; /* Stellt sicher, dass die Chart-Box über dem Overlay liegt */
+  }
+  
+  #treeChartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* oder eine andere Höhe, je nach Bedarf */
+  }
+  
+  

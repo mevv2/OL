@@ -74,6 +74,8 @@ import { CurriculumUsageComponent } from "./charts/curriculum-usage/curriculum-u
 import { PresentationSkillsComponent } from "./charts/presentation-skills/presentation-skills.component";
 import { AdminComponent } from "./component/admin/admin.component";
 import { IndicatorsListComponent } from './component/indicators-list/indicators-list.component';
+import { IndiCounterComponent } from './component/indi-counter/indi-counter.component';
+import { NgxEchartsModule } from 'ngx-echarts';
 
 // const routes: Routes = [
 //   { path: "add", component: AddDataComponent, canActivate: [AuthGuardService]},
@@ -133,6 +135,7 @@ import { IndicatorsListComponent } from './component/indicators-list/indicators-
     CurriculumUsageComponent,
     PresentationSkillsComponent,
     IndicatorsListComponent,
+    IndiCounterComponent,
   ],
   imports: [
     BrowserModule,
@@ -154,6 +157,9 @@ import { IndicatorsListComponent } from './component/indicators-list/indicators-
     MatCheckboxModule,
     AngularFontAwesomeModule,
     HighchartsChartModule,
+    NgxEchartsModule.forRoot({
+      echarts: () => import('echarts')
+    })
   ],
 
   providers: [DataService, AuthGuardService, ChartHelperService],
